@@ -496,8 +496,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7d4ab197-adca-450c-9fc5-7a95ff72b885)
     (property "Reference" "J1" (id 0) (at 40.64 60.96 0))
-    (property "Value" "Conn_02x04_Odd_Even" (id 1) (at 40.64 63.5 0))
-    (property "Footprint" "SamacSys:M808280842" (id 2) (at 39.37 69.85 0)
+    (property "Value" "" (id 1) (at 40.64 63.5 0))
+    (property "Footprint" "" (id 2) (at 39.37 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 39.37 69.85 0)
@@ -517,8 +517,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9272ccd5-e950-4f99-baec-47da7f19129b)
     (property "Reference" "J2" (id 0) (at 86.36 66.04 0))
-    (property "Value" "Conn_02x02_Odd_Even" (id 1) (at 86.36 68.58 0))
-    (property "Footprint" "USER_Passiv:M80-8280442" (id 2) (at 85.09 72.39 0)
+    (property "Value" "" (id 1) (at 86.36 68.58 0))
+    (property "Footprint" "" (id 2) (at 85.09 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.09 72.39 0)
@@ -669,8 +669,8 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d" (page "3"))
-    (path "/13fd01c2-9c13-4b4c-bd8b-0bea989ca11e" (page "4"))
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d" (page "4"))
+    (path "/13fd01c2-9c13-4b4c-bd8b-0bea989ca11e" (page "4"))
   )
 
   (symbol_instances
@@ -795,10 +795,10 @@
       (reference "COUT22") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/934b6342-5d8d-49da-bf4f-f7fa77f16f34"
-      (reference "CUR1") (unit 1) (value "TMCS1101A3BQDT") (footprint "SOIC127P600X175-8N")
+      (reference "CUR1") (unit 1) (value "TMCS1101A3BQDT") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/bf187b1f-09ac-46cb-aea3-5e2484509796"
-      (reference "CUR2") (unit 1) (value "TMCS1101A3BQDT") (footprint "SOIC127P600X175-8N")
+      (reference "CUR2") (unit 1) (value "TMCS1101A3BQDT") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/a554cf31-0806-4740-ba0b-f0d59599f4ca"
       (reference "C_41") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -825,31 +825,31 @@
       (reference "C_IN2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c6a198d2-e0e4-4d6d-8a2a-bdeb249501be"
-      (reference "DOUT1") (unit 1) (value "SMM4F5.0") (footprint "SamacSys:STMITE")
+      (reference "DOUT1") (unit 1) (value "SMM4F5.0") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/65c76957-ccfc-4d5b-b7d9-2ee7c354f524"
-      (reference "DOUT2") (unit 1) (value "SMM4F5.0") (footprint "SamacSys:STMITE")
+      (reference "DOUT2") (unit 1) (value "SMM4F5.0") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/d9839939-8918-48f3-b4b2-d753b1d9a645"
-      (reference "IC1") (unit 1) (value "TMP112AQDRLRQ1") (footprint "SamacSys:SOTFL50P160X60-6N")
+      (reference "IC1") (unit 1) (value "TMP112AQDRLRQ1") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
     (path "/7d4ab197-adca-450c-9fc5-7a95ff72b885"
-      (reference "J1") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "SamacSys:M808280842")
+      (reference "J1") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "STS_Connector:M808280842")
     )
     (path "/9272ccd5-e950-4f99-baec-47da7f19129b"
-      (reference "J2") (unit 1) (value "Conn_02x02_Odd_Even") (footprint "USER_Passiv:M80-8280442")
+      (reference "J2") (unit 1) (value "Conn_02x02_Odd_Even") (footprint "STS_Connector:M808280442")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/bfe4e68f-4cef-4b31-adff-8df094bc3870"
-      (reference "L_IN1") (unit 1) (value "10u") (footprint "SamacSys:INDPM5650X530N")
+      (reference "L_IN1") (unit 1) (value "10u") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/06a966cd-4913-436b-a217-7ac14ca6801e"
-      (reference "L_IN2") (unit 1) (value "10u") (footprint "SamacSys:INDPM5650X530N")
+      (reference "L_IN2") (unit 1) (value "10u") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/679b2e27-da22-4f13-a86e-25be83598a10"
-      (reference "MPPT1") (unit 1) (value "SPV1040TTR") (footprint "SamacSys:SOP65P640X120-8N")
+      (reference "MPPT1") (unit 1) (value "SPV1040TTR") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/f7af2bb9-8bee-4408-8a96-0d5862b66a63"
-      (reference "MPPT2") (unit 1) (value "SPV1040TTR") (footprint "SamacSys:SOP65P640X120-8N")
+      (reference "MPPT2") (unit 1) (value "SPV1040TTR") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
     )
     (path "/6503b427-07c6-4391-8fa6-4757fb4daa6c"
       (reference "Outline1") (unit 1) (value "OUTLINE_Sidepanel") (footprint "USER_OUTLINE:OUTLINE_SidepanelZ+")
@@ -918,10 +918,10 @@
       (reference "RU2") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/e7b54c2f-482e-4a97-841f-62a80e0193a8"
-      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "USER_Activ:3G30A_40x80")
+      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_Connector:3G30A_40x80")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/3ad17c33-30d5-4097-824f-a9c26e6ca325"
-      (reference "SC2") (unit 1) (value "Solar_Cell") (footprint "USER_Activ:3G30A_40x80")
+      (reference "SC2") (unit 1) (value "Solar_Cell") (footprint "STS_Connector:3G30A_40x80")
     )
     (path "/e6cad5c9-4a9d-4066-8345-4481317e7bc0"
       (reference "TP_DEPLOY1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
@@ -930,7 +930,7 @@
       (reference "TP_VBAT1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded")
     )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/a83d6342-0e16-4131-8bb9-e65e4d72dab0"
-      (reference "U1") (unit 1) (value "GUVA-C32SM") (footprint "USER_Optic:OLGA 2mm x 2,3mm")
+      (reference "U1") (unit 1) (value "GUVA-C32SM") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
     )
   )
 )
