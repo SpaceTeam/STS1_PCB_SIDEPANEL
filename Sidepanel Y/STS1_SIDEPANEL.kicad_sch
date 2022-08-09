@@ -182,7 +182,7 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Thermistor_NTC_0_1"
-        (arc (start -3.048 2.159) (mid -3.0495 2.3143) (end -3.175 2.413)
+        (arc (start -3.048 2.159) (mid -3.0505 2.3165) (end -3.175 2.413)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -198,7 +198,7 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start -2.794 2.54) (mid -2.4393 2.5587) (end -2.159 2.794)
+        (arc (start -2.794 2.54) (mid -2.434 2.5608) (end -2.159 2.794)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -889,10 +889,10 @@
       (reference "C_IN2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c6a198d2-e0e4-4d6d-8a2a-bdeb249501be"
-      (reference "DOUT1") (unit 1) (value "SMM4F5.0") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "DOUT1") (unit 1) (value "SMM4F5.0") (footprint "SamacSys:STMITE")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/65c76957-ccfc-4d5b-b7d9-2ee7c354f524"
-      (reference "DOUT2") (unit 1) (value "SMM4F5.0") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "DOUT2") (unit 1) (value "SMM4F5.0") (footprint "SamacSys:STMITE")
     )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/d9839939-8918-48f3-b4b2-d753b1d9a645"
       (reference "IC1") (unit 1) (value "TMP112AQDRLRQ1") (footprint "Package_TO_SOT_SMD:SOT-563")
@@ -904,10 +904,10 @@
       (reference "J2") (unit 1) (value "Conn_02x02_Odd_Even") (footprint "STS_Connector:M808280442")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/bfe4e68f-4cef-4b31-adff-8df094bc3870"
-      (reference "L_IN1") (unit 1) (value "10u") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "L_IN1") (unit 1) (value "10u") (footprint "STS_Inductor_SMD:XAL6060103MEC")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/06a966cd-4913-436b-a217-7ac14ca6801e"
-      (reference "L_IN2") (unit 1) (value "10u") (footprint "Inductor_SMD:L_0603_1608Metric")
+      (reference "L_IN2") (unit 1) (value "10u") (footprint "STS_Inductor_SMD:XAL6060103MEC")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/679b2e27-da22-4f13-a86e-25be83598a10"
       (reference "MPPT1") (unit 1) (value "SPV1040TTR") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
@@ -967,10 +967,10 @@
       (reference "RU2") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/e7b54c2f-482e-4a97-841f-62a80e0193a8"
-      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_Connector:3G30A_40x80")
+      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_Solarcells:3G30A_40x80")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/3ad17c33-30d5-4097-824f-a9c26e6ca325"
-      (reference "SC2") (unit 1) (value "Solar_Cell") (footprint "STS_Connector:3G30A_40x80")
+      (reference "SC2") (unit 1) (value "Solar_Cell") (footprint "STS_Solarcells:3G30A_40x80")
     )
     (path "/cd74d053-e62a-45a3-9f24-631862f85655"
       (reference "TH1") (unit 1) (value "Thermistor_NTC") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
