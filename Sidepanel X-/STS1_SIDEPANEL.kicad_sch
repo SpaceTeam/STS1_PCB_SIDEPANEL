@@ -331,6 +331,7 @@
   )
 
 
+
   (wire (pts (xy 26.67 67.31) (xy 34.29 67.31))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 15745daf-46b2-4937-9c71-88ec6dccc5cc)
@@ -827,6 +828,9 @@
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/82ea5262-8cb0-4aa3-ac2d-a35dc022e2a3"
       (reference "C_IN1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/0040de32-234c-484c-aa0a-7ab4d43c3faa"
+      (reference "D1") (unit 1) (value "PMEG2020EH") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c6a198d2-e0e4-4d6d-8a2a-bdeb249501be"
       (reference "DOUT1") (unit 1) (value "SMM4F5.0") (footprint "SamacSys:STMITE")
