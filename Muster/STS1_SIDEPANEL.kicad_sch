@@ -669,8 +669,8 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d" (page "3"))
-    (path "/13fd01c2-9c13-4b4c-bd8b-0bea989ca11e" (page "4"))
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d" (page "4"))
+    (path "/13fd01c2-9c13-4b4c-bd8b-0bea989ca11e" (page "4"))
   )
 
   (symbol_instances
@@ -823,6 +823,12 @@
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/493cfbd5-70dc-4af7-8244-b4cc1170389b"
       (reference "C_IN2") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/f42bf911-6b35-4422-b431-a51589257f3d"
+      (reference "D1") (unit 1) (value "PMEG2020EH") (footprint "Diode_SMD:D_SOD-123F")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/5c7255c2-f51c-4267-ab6f-aa85e850af9f"
+      (reference "D2") (unit 1) (value "PMEG2020EH") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c6a198d2-e0e4-4d6d-8a2a-bdeb249501be"
       (reference "DOUT1") (unit 1) (value "SMM4F5.0") (footprint "SamacSys:STMITE")
