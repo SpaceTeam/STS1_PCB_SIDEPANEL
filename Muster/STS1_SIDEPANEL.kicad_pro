@@ -452,12 +452,12 @@
       "Sensors"
     ],
     [
-      "13fd01c2-9c13-4b4c-bd8b-0bea989ca11e",
-      "AntennaDeployment"
-    ],
-    [
       "4f87559b-6bba-4ff6-97a7-dad9a308db2d",
       "SolarMPPT"
+    ],
+    [
+      "13fd01c2-9c13-4b4c-bd8b-0bea989ca11e",
+      "AntennaDeployment"
     ]
   ],
   "text_variables": {}
