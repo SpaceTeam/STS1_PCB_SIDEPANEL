@@ -588,6 +588,7 @@
     )
   )
 
+
   (junction (at 58.42 148.59) (diameter 0) (color 0 0 0 0)
     (uuid 00d271fb-4f7a-490f-bebf-7531d1fb1212)
   )
@@ -1394,11 +1395,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd4bc28d-91aa-41d5-98ad-6fed41858f89)
   )
-  (label "MPPT2_IN" (at 104.14 105.41 90)
+  (label "MPPT2_IN" (at 104.14 95.25 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ea80a2bb-b406-4902-b2ac-fdaf79e39b30)
   )
-  (label "MPPT1_IN" (at 104.14 39.37 90)
+  (label "MPPT1_IN" (at 104.14 26.67 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f0c962c2-64b8-44ca-be2b-05c5bf83ba8f)
   )
