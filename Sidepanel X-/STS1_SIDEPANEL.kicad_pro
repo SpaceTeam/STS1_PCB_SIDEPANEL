@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 7.0,
-          "width": 7.5
+          "drill": 0.94,
+          "height": 0.99,
+          "width": 0.99
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -446,7 +446,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../../Program Files/KiCad/6.0/",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "STS1_SIDEPANEL.step",
       "vrml": ""
