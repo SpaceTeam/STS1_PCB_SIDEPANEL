@@ -209,9 +209,9 @@
           ) (width 0.2) (fill yes))
       ) (tstamp 3cb5901a-1879-483e-88a8-088cbc5779e8))
     (pad "2" smd roundrect locked (at 16 -23.5 180) (size 7.5 7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
-      (net 16 "/SC2_V+") (pinfunction "+") (pintype "passive") (tstamp 80d386e5-e289-4117-9d5e-9e43c637f4c9))
+      (net 1 "GND") (pinfunction "+") (pintype "passive") (tstamp 80d386e5-e289-4117-9d5e-9e43c637f4c9))
     (pad "2" smd roundrect locked (at -16 -23.5 180) (size 7.5 7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
-      (net 16 "/SC2_V+") (pinfunction "+") (pintype "passive") (tstamp 9abf001c-0670-4c2f-a1b5-1d35ec6aed1e))
+      (net 1 "GND") (pinfunction "+") (pintype "passive") (tstamp 9abf001c-0670-4c2f-a1b5-1d35ec6aed1e))
     (model "C:/Users/Alex/Documents/KiCad/6.0/3dmodels/3G30A.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2473,7 +2473,11 @@
   )
 
   (segment (start 155 49.5) (end 156.93 51.43) (width 0.2) (layer "F.Cu") (net 1) (tstamp 159adc7f-08a2-4089-86b6-51f2a76a8bc8))
+  (segment (start 114.36 133.86) (end 108.9 133.86) (width 0.2) (layer "F.Cu") (net 1) (tstamp 4d0f4bed-21bf-4475-8bf4-73e90456a895))
+  (segment (start 115 134.5) (end 114.36 133.86) (width 0.2) (layer "F.Cu") (net 1) (tstamp 8ea438be-68a7-48d6-8df8-82a734c4a31f))
+  (segment (start 135 134.5) (end 140.26 134.5) (width 0.2) (layer "F.Cu") (net 1) (tstamp cebb59ec-6726-4f7a-a69e-244c8253b486))
   (segment (start 156.93 51.43) (end 158.53 51.43) (width 0.2) (layer "F.Cu") (net 1) (tstamp de5f5cd2-232f-415f-aff3-15899d61de36))
+  (segment (start 140.26 134.5) (end 140.9 133.86) (width 0.2) (layer "F.Cu") (net 1) (tstamp def23460-a3dd-4924-8400-a173007cd5fd))
   (via (at 115 134.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 027864b3-b79c-4cfc-b7ca-a22560db70b5))
   (via (at 165 99.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 051f13a1-2304-40b0-ad52-855ec4c0c3f7))
   (via (at 85 54.5) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 1) (tstamp 098f05af-3074-4ef1-b611-a4d8ecbde4b5))

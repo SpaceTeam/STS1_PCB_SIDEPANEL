@@ -455,7 +455,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL.step",
+      "step": "STS1_SIDEPANEL_Z.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
