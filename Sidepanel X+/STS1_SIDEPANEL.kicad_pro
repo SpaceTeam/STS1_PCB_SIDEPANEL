@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.94,
-          "height": 0.99,
-          "width": 0.99
+          "drill": 5.0,
+          "height": 5.1,
+          "width": 5.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,7 +56,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|101000000|104450000|eb104e89-bf14-4eb2-9310-41da079145c7|fcd84086-a22e-4c3d-9637-f7cb7b02b5f6",
+        "clearance|158228310|96225480|0a1ac2c6-8da8-4410-b772-69afa2855077|c355ca51-32bc-4d88-a250-07d5621dd709",
+        "clearance|158388310|97725480|dff62e1d-c592-4963-80cb-25d776cdc1f4|742f6656-c86d-41c0-937e-ef6ded3bd482"
+      ],
       "meta": {
         "version": 2
       },

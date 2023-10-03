@@ -588,7 +588,6 @@
     )
   )
 
-
   (junction (at 104.14 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 016a0d94-cbb6-4bfe-a638-dbf2e062027c)
   )
@@ -1417,7 +1416,7 @@
     (uuid bfe4e68f-4cef-4b31-adff-8df094bc3870)
     (property "Reference" "L_IN1" (id 0) (at 100.33 41.91 90))
     (property "Value" "10u" (id 1) (at 100.33 44.45 90))
-    (property "Footprint" "STS_Inductor_SMD:XAL6060103MEC" (id 2) (at 100.33 46.99 0)
+    (property "Footprint" "STS_Inductor_SMD:IND_XAL6060-103MEC" (id 2) (at 100.33 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 46.99 0)
