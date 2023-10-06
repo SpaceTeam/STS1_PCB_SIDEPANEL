@@ -1552,7 +1552,7 @@
     (property "Value" "Solar_Cell" (id 1) (at 43.18 52.4509 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "STS_Solarcells:3G30A_40x80" (id 2) (at 39.37 51.816 90)
+    (property "Footprint" "STS_solder:3G30A_40x80" (id 2) (at 39.37 51.816 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 39.37 51.816 90)
