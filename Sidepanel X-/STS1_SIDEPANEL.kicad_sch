@@ -1333,7 +1333,7 @@
       (reference "RU2") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/e7b54c2f-482e-4a97-841f-62a80e0193a8"
-      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_Solarcells:3G30A_40x80")
+      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_solder:3G30A_40x80")
     )
     (path "/750cb84e-d795-4364-9358-ec0975478b7f"
       (reference "TH1") (unit 1) (value "Thermistor_NTC") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
