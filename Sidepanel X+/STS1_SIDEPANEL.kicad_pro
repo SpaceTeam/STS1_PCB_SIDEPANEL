@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
-          "height": 5.1,
-          "width": 5.1
+          "drill": 0.0,
+          "height": 3.0,
+          "width": 7.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -57,9 +57,9 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|101000000|104450000|eb104e89-bf14-4eb2-9310-41da079145c7|fcd84086-a22e-4c3d-9637-f7cb7b02b5f6",
-        "clearance|158228310|96225480|0a1ac2c6-8da8-4410-b772-69afa2855077|c355ca51-32bc-4d88-a250-07d5621dd709",
-        "clearance|158388310|97725480|dff62e1d-c592-4963-80cb-25d776cdc1f4|742f6656-c86d-41c0-937e-ef6ded3bd482"
+        "clearance|100067500|70445000|156623db-dd56-4f0f-a968-097f63249348|619516ef-7f45-481b-a3f7-50d030e72908",
+        "clearance|99567500|70445000|53755ac8-39c8-4dd2-bc6e-fb2479515c86|156623db-dd56-4f0f-a968-097f63249348",
+        "clearance|99727500|71945000|641bb17f-1e76-422b-b03b-d09078c07c01|a5c6b898-c730-4538-99da-e95288f516fd"
       ],
       "meta": {
         "version": 2
@@ -450,9 +450,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../Program Files/KiCad/6.0/",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL_X+.step",
+      "step": "STS1_SIDEPANELX-.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
