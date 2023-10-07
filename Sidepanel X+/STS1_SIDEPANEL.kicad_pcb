@@ -1015,6 +1015,11 @@
       (solder_mask_margin 0.102) (tstamp da29177b-b0dc-47f6-a5f6-5bdffc08e693))
     (pad "S2" smd rect locked (at 3.397 0 180) (size 2.24 3.12) (layers "B.Cu" "B.Paste" "B.Mask")
       (solder_mask_margin 0.102) (tstamp ea7d43ab-f8a5-44b1-ad83-87b3af0269e3))
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/ZF5S-08-01-T-WT.step"
+      (offset (xyz 0 -3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
@@ -1194,7 +1199,7 @@
       (net 44 "unconnected-(edu_con2-Pad23)") (pinfunction "23") (pintype "passive+no_connect") (tstamp 0f052001-fe7d-452d-8d49-01b1c1de6cd4))
     (pad "24" smd rect locked (at 7.525 0.15) (size 1.65 1.3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 45 "unconnected-(edu_con2-Pad24)") (pinfunction "24") (pintype "passive+no_connect") (tstamp 448f353b-df7b-4bd7-9001-c60650cda297))
-    (model "54548-2271.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/54548-2271.stp"
       (offset (xyz 0 1.849999996 0.01999999925))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1302,7 +1307,7 @@
       (net 46 "unconnected-(UV1-PadMP1)") (pinfunction "MP1") (pintype "passive+no_connect") (tstamp 2349e413-aae1-44ea-8624-79de648ad717))
     (pad "MP2" smd rect locked (at 1.45 -0.43 180) (size 0.52 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 47 "unconnected-(UV1-PadMP2)") (pinfunction "MP2") (pintype "passive+no_connect") (tstamp 5d1bd753-94d6-49bc-891b-0b1a9e07d483))
-    (model "501461-0491.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/501461-0491.stp"
       (offset (xyz 0 -1.6 0.4099999903))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1679,7 +1684,7 @@
       (net 42 "unconnected-(cam2-Pad23)") (pinfunction "23") (pintype "passive+no_connect") (tstamp 385f9050-dd7b-49c4-a66e-80454dd20d1a))
     (pad "24" smd rect locked (at 7.525 0.15) (size 1.65 1.3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 43 "unconnected-(cam2-Pad24)") (pinfunction "24") (pintype "passive+no_connect") (tstamp e85b2eab-0cee-4c56-b69e-831fdcd98180))
-    (model "54548-2271.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/54548-2271.stp"
       (offset (xyz 0 1.849999996 0.01999999925))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

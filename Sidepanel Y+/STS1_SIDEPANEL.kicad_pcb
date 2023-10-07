@@ -393,6 +393,11 @@
       (solder_mask_margin 0.102) (tstamp a6db9b45-8932-4bfa-9abd-ff752e67380b))
     (pad "S2" smd rect locked (at 3.397 0 180) (size 2.24 3.12) (layers "B.Cu" "B.Paste" "B.Mask")
       (solder_mask_margin 0.102) (tstamp 7aad0711-9604-4692-aba5-824f15bc7a30))
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/ZF5S-08-01-T-WT.step"
+      (offset (xyz 0 -3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
@@ -992,7 +997,7 @@
       (net 4 "unconnected-(UV1-PadMP1)") (pinfunction "MP1") (pintype "passive") (tstamp a771031d-c0e5-417c-afd0-59733e7f00b5))
     (pad "MP2" smd rect locked (at 1.45 -0.43 180) (size 0.52 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 29 "unconnected-(UV1-PadMP2)") (pinfunction "MP2") (pintype "passive") (tstamp 5ddeb828-e723-4c96-96fe-2a2953d84ca1))
-    (model "501461-0491.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/501461-0491.stp"
       (offset (xyz 0 -1.6 0.4099999903))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

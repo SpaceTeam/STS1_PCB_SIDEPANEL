@@ -448,7 +448,7 @@
       (net 44 "unconnected-(edu_con1-Pad23)") (pinfunction "23") (pintype "passive+no_connect") (tstamp 31bbdc2e-0421-4253-8965-561378f3ac04))
     (pad "24" smd rect locked (at 7.525 0.15) (size 1.65 1.3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 45 "unconnected-(edu_con1-Pad24)") (pinfunction "24") (pintype "passive+no_connect") (tstamp fbe407fc-5012-4655-b0ff-cbf3a3fa5cfb))
-    (model "${STS_LIB}/3d/STS_Connector/54548-2271.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/54548-2271.stp"
       (offset (xyz 0 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -598,7 +598,7 @@
       (net 46 "unconnected-(UV1-PadMP1)") (pinfunction "MP1") (pintype "passive+no_connect") (tstamp 34828432-5491-4477-ae07-c14d00c14f0b))
     (pad "MP2" smd rect locked (at 1.45 -0.43 180) (size 0.52 1) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 47 "unconnected-(UV1-PadMP2)") (pinfunction "MP2") (pintype "passive+no_connect") (tstamp f4e8ae89-586f-4ad0-a8ef-ed4b5e2962f5))
-    (model "501461-0491.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/501461-0491.stp"
       (offset (xyz 0 -1.6 0.4099999903))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -930,6 +930,11 @@
       (solder_mask_margin 0.102) (tstamp 32fd3932-909b-4ea9-803a-bcc695f85430))
     (pad "S2" smd rect locked (at 3.397 0) (size 2.24 3.12) (layers "B.Cu" "B.Paste" "B.Mask")
       (solder_mask_margin 0.102) (tstamp 00cc8cfb-e2ab-4e8a-a303-4bb9fa32f944))
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/ZF5S-08-01-T-WT.step"
+      (offset (xyz 0 -3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")
@@ -1134,7 +1139,7 @@
       (net 19 "/SolarMPPT/CUR1_OUT") (pintype "passive") (solder_mask_margin 0.102) (tstamp 74a7b70f-3cd5-4cce-b7dc-a7887d349e8d))
     (pad "2" smd rect locked (at 2.02 0) (size 1.43 5.5) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 20 "/SolarMPPT/MPPT1_IN") (pintype "passive") (solder_mask_margin 0.102) (tstamp 18913c81-1795-4ed8-a4f6-8a4ef0ff136c))
-    (model "${STS_LIB}/3d/STS_Inductor_SMD/XAL6060-103MEC.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Inductor_SMD/XAL6060-103MEC.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1511,12 +1516,7 @@
       (net 42 "unconnected-(cam1-Pad23)") (pinfunction "23") (pintype "passive+no_connect") (tstamp 7f488576-a5c9-4c51-a393-363d2861936d))
     (pad "24" smd rect locked (at 7.525 0.15) (size 1.65 1.3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 43 "unconnected-(cam1-Pad24)") (pinfunction "24") (pintype "passive+no_connect") (tstamp 5e2702b0-c4e4-4c12-951e-a14c339568ce))
-    (model "54548-2271.stp" hide
-      (offset (xyz 0 1.849999996 0.01999999925))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "${STS_LIB}/3d/STS_Connector/54548-2271.stp"
+    (model "C:/DEV/STS1_PCB_SIDEPANEL/STS1_PCB_LIBRARIES/3d/STS_Connector/54548-2271.stp"
       (offset (xyz 0 2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
