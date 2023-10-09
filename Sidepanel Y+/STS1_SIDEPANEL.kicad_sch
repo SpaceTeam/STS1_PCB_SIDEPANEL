@@ -937,6 +937,12 @@
     (path "/1a657991-5c9c-41a4-9f2e-22f0c7450b3a"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/7c472d1c-f6ec-4dad-afb8-041d8cde6ad1"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/f33fb5b5-7250-4789-af7d-0217e4d4c789"
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/744ba6a5-8f97-44b6-b33c-eda609bf7e9f"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1048,6 +1054,18 @@
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c0ee5ea3-32c4-4461-a3b9-e25cc4c00586"
       (reference "R32") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c4bbb6a8-5217-45a7-831b-bdbf57bc3fdb"
+      (reference "R41") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/45294ee1-cb9b-4ede-93a5-16f4bbbee536"
+      (reference "R42") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/8730d60f-e268-4e0c-8f24-4a60f45c57b7"
+      (reference "R51") (unit 1) (value "10m") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/7d82597c-a6da-438e-a647-fb7947541ddd"
+      (reference "R52") (unit 1) (value "10m") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/6f4b8cc8-d074-419d-84da-024a34781ce5"
       (reference "RF11") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1089,6 +1107,12 @@
     )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/a83d6342-0e16-4131-8bb9-e65e4d72dab0"
       (reference "U1") (unit 1) (value "GUVA-C32SM") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/6ebf0987-56ef-44f4-b1f0-250c65d86937"
+      (reference "U11") (unit 1) (value "INA180A4") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/2233fb17-25c2-4beb-a544-4a59c9db9224"
+      (reference "U12") (unit 1) (value "INA180A4") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/51a1d03d-d1b0-433b-a1de-be96d363771f"
       (reference "UV1") (unit 1) (value "501461-0491") (footprint "STS_connector:5014610491")

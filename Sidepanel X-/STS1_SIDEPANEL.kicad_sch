@@ -1248,6 +1248,9 @@
     (path "/3405dd3f-d0bd-4fef-b279-f38234183e10"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/90129dac-16aa-46a3-bf9b-d81b9664b6d5"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/744ba6a5-8f97-44b6-b33c-eda609bf7e9f"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1311,6 +1314,12 @@
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/56ac33c8-3219-47a8-9412-71ca3d14d60f"
       (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/577a1a88-f2c0-46ca-9f71-5dc6f46ebed2"
+      (reference "R41") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/76ee1740-78ba-440d-9b2e-5e46930c03f3"
+      (reference "R51") (unit 1) (value "10m") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/6f4b8cc8-d074-419d-84da-024a34781ce5"
       (reference "RF11") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1340,6 +1349,9 @@
     )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/a83d6342-0e16-4131-8bb9-e65e4d72dab0"
       (reference "U1") (unit 1) (value "GUVA-C32SM") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
+    )
+    (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/a8fa77d1-89c7-48d1-847d-53de6f283087"
+      (reference "U11") (unit 1) (value "INA180A4") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/ff245965-9f37-4b3e-9b73-e994272a3985"
       (reference "UV1") (unit 1) (value "501461-0491") (footprint "Sts:5014610491")
