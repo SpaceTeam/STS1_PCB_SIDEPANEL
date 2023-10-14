@@ -640,7 +640,7 @@
     (property "Value" "501461-0491" (id 1) (at 81.788 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "STS_connector:5014610491" (id 2) (at 70.358 73.66 0)
+    (property "Footprint" "STS_Connector:5014610491" (id 2) (at 70.358 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 70.358 73.66 0)
@@ -692,7 +692,7 @@
     (property "Value" "Conn_01x08" (id 1) (at 35.56 80.0099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "STS_connector:SAMTEC_ZF5S-08-01-T-WT" (id 2) (at 33.274 77.47 0)
+    (property "Footprint" "STS_Connector:SAMTEC_ZF5S-08-01-T-WT" (id 2) (at 33.274 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 33.274 77.47 0)
@@ -1023,7 +1023,7 @@
       (reference "IC1") (unit 1) (value "TMP112AQDRLRQ1") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
     (path "/5af4ae86-395d-42c8-805e-c46aa3e285d9"
-      (reference "J1") (unit 1) (value "Conn_01x08") (footprint "STS_connector:SAMTEC_ZF5S-08-01-T-WT")
+      (reference "J1") (unit 1) (value "Conn_01x08") (footprint "STS_Connector:SAMTEC_ZF5S-08-01-T-WT")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/bfe4e68f-4cef-4b31-adff-8df094bc3870"
       (reference "L_IN1") (unit 1) (value "10u") (footprint "STS_Inductor_SMD:XAL6060103MEC")
@@ -1101,10 +1101,10 @@
       (reference "RU2") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/e7b54c2f-482e-4a97-841f-62a80e0193a8"
-      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_Solarcells:3G30A_40x80")
+      (reference "SC1") (unit 1) (value "Solar_Cell") (footprint "STS_solder:3G30A_40x80_Y_SC1")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/3ad17c33-30d5-4097-824f-a9c26e6ca325"
-      (reference "SC2") (unit 1) (value "Solar_Cell") (footprint "STS_Solarcells:3G30A_40x80")
+      (reference "SC2") (unit 1) (value "Solar_Cell") (footprint "STS_solder:3G30A_40x80_Y_SC2")
     )
     (path "/cd74d053-e62a-45a3-9f24-631862f85655"
       (reference "TH1") (unit 1) (value "Thermistor_NTC") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -1119,7 +1119,7 @@
       (reference "U12") (unit 1) (value "INA180A4") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/51a1d03d-d1b0-433b-a1de-be96d363771f"
-      (reference "UV1") (unit 1) (value "501461-0491") (footprint "STS_connector:5014610491")
+      (reference "UV1") (unit 1) (value "501461-0491") (footprint "STS_Connector:5014610491")
     )
   )
 )
