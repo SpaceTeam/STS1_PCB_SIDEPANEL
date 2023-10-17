@@ -1077,6 +1077,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
+    (model ":STS_Connector_temp:ZF5S-08-01-T-WT.stp"
+      (offset (xyz 0 -3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "B.Cu")

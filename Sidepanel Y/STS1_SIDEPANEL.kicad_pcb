@@ -397,7 +397,7 @@
       (solder_mask_margin 0.102) (tstamp c09c2c2b-6547-400d-81f0-9e006bbcfdfe))
     (pad "S2" smd rect locked (at 3.397 0 180) (size 2.24 3.12) (layers "B.Cu" "B.Paste" "B.Mask")
       (solder_mask_margin 0.102) (tstamp 7d7dde4d-0fd6-4140-81fa-fe0efa9e7977))
-    (model "${KIPRJMOD}/../libs/3d/STS_Connector/ZF5S-08-01-T-WT.step"
+    (model ":STS_Connector_temp:ZF5S-08-01-T-WT.stp"
       (offset (xyz 0 -3 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
