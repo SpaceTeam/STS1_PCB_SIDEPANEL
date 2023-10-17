@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 7.0,
-          "width": 7.5
+          "drill": 5.0,
+          "height": 5.1,
+          "width": 5.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,7 +56,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|141650000|89330000|06b57733-f545-49fc-900f-f90ae9b9047c|0d33a0a3-6701-41b8-8040-7340c4d8cd33",
+        "clearance|141650000|89830000|9ee66366-9074-4bc0-8447-8c0b7199acdf|06b57733-f545-49fc-900f-f90ae9b9047c",
+        "clearance|143150000|89670000|0bb36be2-ca53-49e2-aeb3-4c5728e3d819|a0fa8234-8777-4a66-8b79-9ecbb37d6605"
+      ],
       "meta": {
         "version": 2
       },
@@ -448,7 +452,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL.step",
+      "step": "STS1_SIDEPANEL_Y+.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
