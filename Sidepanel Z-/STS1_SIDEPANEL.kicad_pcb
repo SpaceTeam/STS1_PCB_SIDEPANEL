@@ -2991,7 +2991,7 @@
   (gr_text "C2" (at 101.25 104.25 -180) (layer "B.SilkS") (tstamp 3d53ee47-2889-4d51-820d-5e20841648c4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Z+" (at 86.9 42.51) (layer "B.SilkS") (tstamp 67ffa7ed-ec58-45a1-88eb-4d15cfbb4955)
+  (gr_text "Z-" (at 86.9 42.51) (layer "B.SilkS") (tstamp 67ffa7ed-ec58-45a1-88eb-4d15cfbb4955)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "C1" (at 97 104.18) (layer "B.SilkS") (tstamp 839d71ca-e780-4de8-9707-c253b9110259)
