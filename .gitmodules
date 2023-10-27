@@ -1,3 +1,4 @@
 [submodule "libs"]
 	path = libs
 	url = git@github.com:SpaceTeam/STS1_PCB_LIBRARIES.git
+	branch = sidepanel_additions
