@@ -55,7 +55,7 @@
     (aux_axis_origin 125 89.5)
     (grid_origin 125 89.5)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x00410fc_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -217,7 +217,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 8f64e598-8273-46f2-bed1-3e0414cdc78d)
     )
-    (pad "1" smd roundrect (at 0 -9 90) (size 7 3) (layers "B.Cu") (roundrect_rratio 0.25) (tstamp c5a186e5-3cfe-47f5-bd6b-6d6b6d2cb2f9))
+    (pad "1" smd roundrect (at 0 -9 90) (size 7 3) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25) (tstamp c5a186e5-3cfe-47f5-bd6b-6d6b6d2cb2f9))
   )
 
   (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm" (layer "F.Cu")
@@ -353,7 +353,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 3a9a5ea6-76be-4aef-bfc6-a09aabfd13b1)
     )
-    (pad "1" smd roundrect (at 0 -9 90) (size 7 3) (layers "B.Cu") (roundrect_rratio 0.25) (tstamp deb9869e-5d39-4083-a999-7fd317edb660))
+    (pad "1" smd roundrect (at 0 -9 90) (size 7 3) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25) (tstamp deb9869e-5d39-4083-a999-7fd317edb660))
   )
 
   (footprint "STS_Connector:545482271" (layer "B.Cu")
@@ -2019,7 +2019,7 @@
   (gr_text "X+" (at 91.98 41.24) (layer "B.SilkS") (tstamp 2bba86d3-431c-4c10-b175-a92804e05061)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "100 mm x 82.8 mm" (at 108.6932 37.176) (layer "F.SilkS") (tstamp 94365399-25ea-4e59-8552-577fcf78032c)
+  (gr_text "100 mm x 82.8 mm" (at 108.6932 37.176) (layer "User.1") (tstamp 94365399-25ea-4e59-8552-577fcf78032c)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 

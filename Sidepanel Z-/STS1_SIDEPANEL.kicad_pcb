@@ -55,7 +55,7 @@
     (aux_axis_origin 125 89.5)
     (grid_origin 125 89.5)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x00410fc_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes false)
@@ -85,7 +85,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../Gerber/Z+/")
+      (outputdirectory "../Gerber/Z-/")
     )
   )
 
@@ -2997,7 +2997,7 @@
   (gr_text "C1" (at 97 104.18) (layer "B.SilkS") (tstamp 839d71ca-e780-4de8-9707-c253b9110259)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "98 mm x 98 mm" (at 108.49 38.192) (layer "F.SilkS") (tstamp 503f5b26-a245-4223-abd0-d4b7008a20f9)
+  (gr_text "98 mm x 98 mm" (at 108.49 38.192) (layer "User.1") (tstamp 503f5b26-a245-4223-abd0-d4b7008a20f9)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
