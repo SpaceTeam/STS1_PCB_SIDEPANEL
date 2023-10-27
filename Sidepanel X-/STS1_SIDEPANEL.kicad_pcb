@@ -2011,7 +2011,7 @@
   (gr_text "X-" (at 91.98 42.51) (layer "B.SilkS") (tstamp de7af5ae-5600-4278-bb1a-5080c37f439f)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "100 mm x 82.8 mm" (at 107.8296 37.5316) (layer "User.1") (tstamp 3f63eee9-1c1b-417e-8d13-3b4b4f5919b1)
+  (gr_text "100 mm x 82.8 mm" (at 107.8296 37.5316) (layer "F.SilkS") (tstamp 3f63eee9-1c1b-417e-8d13-3b4b4f5919b1)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 

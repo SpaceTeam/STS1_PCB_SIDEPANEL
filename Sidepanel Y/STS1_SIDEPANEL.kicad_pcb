@@ -2802,7 +2802,7 @@
   (gr_text "Y" (at 91.98 41.24) (layer "B.SilkS") (tstamp f5716fc3-93b9-435c-b5cd-f1fb8032e5e9)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "100 mm x 82.8 mm" (at 109.2012 36.8712) (layer "User.1") (tstamp 68695be8-16b8-4b3b-8828-2daa538fd609)
+  (gr_text "100 mm x 82.8 mm" (at 109.2012 36.8712) (layer "F.SilkS") (tstamp 68695be8-16b8-4b3b-8828-2daa538fd609)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 
