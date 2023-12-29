@@ -452,7 +452,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL_Y+.step",
+      "step": "STS1_SIDEPANEL_Y.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
