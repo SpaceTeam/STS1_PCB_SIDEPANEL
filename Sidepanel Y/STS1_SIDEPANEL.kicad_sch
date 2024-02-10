@@ -1106,7 +1106,7 @@
       (reference "TH1") (unit 1) (value "Thermistor_NTC") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/a83d6342-0e16-4131-8bb9-e65e4d72dab0"
-      (reference "U1") (unit 1) (value "GUVA-C32SM") (footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm")
+      (reference "U1") (unit 1) (value "GUVA-C32SM") (footprint "STS_UV:OLGA 2mm x 2,3mm")
     )
     (path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/6ebf0987-56ef-44f4-b1f0-250c65d86937"
       (reference "U11") (unit 1) (value "INA180A4") (footprint "Package_TO_SOT_SMD:SOT-23-5")

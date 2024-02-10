@@ -691,7 +691,7 @@
     (uuid a83d6342-0e16-4131-8bb9-e65e4d72dab0)
     (property "Reference" "U1" (id 0) (at 60.96 34.29 0))
     (property "Value" "GUVA-C32SM" (id 1) (at 60.96 36.83 0))
-    (property "Footprint" "Package_SO:SO-4_4.4x3.6mm_P2.54mm" (id 2) (at 60.96 45.72 0)
+    (property "Footprint" "STS_UV:OLGA 2mm x 2,3mm" (id 2) (at 60.96 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 60.96 45.72 0)
