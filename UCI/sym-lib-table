@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name "54548-2271")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/54548-2271.kicad_sym")(options "")(descr ""))
+  (lib (name "501461-0491")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/501461-0491.kicad_sym")(options "")(descr ""))
+  (lib (name "guva-c32sm")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/guva-c32sm.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_Regulator_Switching")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/STS_Regulator_Switching.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_RF_Module")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/STS_RF_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_Sensor_Optical")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/STS_Sensor_Optical.kicad_sym")(options "")(descr ""))
+  (lib (name "STS-connector")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/STS-connector.kicad_sym")(options "")(descr ""))
+  (lib (name "ZF5S-08-01-T-WT")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/ZF5S-08-01-T-WT.kicad_sym")(options "")(descr ""))
+  (lib (name "UJ40-C-V-G-SMT-TR")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/UJ40-C-V-G-SMT-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4160-03-0170-C")(type "KiCad")(uri "C:/DEV/STS1_PCB_SIDEPANEL/libs/symbol/USB4160-03-0170-C.kicad_sym")(options "")(descr ""))
+)
