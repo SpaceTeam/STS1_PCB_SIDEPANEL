@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
-          "height": 5.1,
-          "width": 5.1
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,8 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -56,11 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|100067500|70445000|156623db-dd56-4f0f-a968-097f63249348|619516ef-7f45-481b-a3f7-50d030e72908",
-        "clearance|99567500|70445000|53755ac8-39c8-4dd2-bc6e-fb2479515c86|156623db-dd56-4f0f-a968-097f63249348",
-        "clearance|99727500|71945000|641bb17f-1e76-422b-b03b-d09078c07c01|a5c6b898-c730-4538-99da-e95288f516fd"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -97,8 +92,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -115,12 +110,10 @@
         "zones_intersect": "error"
       },
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.01,
+        "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -130,11 +123,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -182,11 +173,7 @@
         0.0,
         0.2,
         0.25,
-        0.3,
-        0.45,
-        0.5,
-        0.75,
-        1.0
+        0.3
       ],
       "via_dimensions": [
         {
@@ -194,20 +181,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
-          "drill": 0.2
-        },
-        {
-          "diameter": 0.6,
+          "diameter": 0.4,
           "drill": 0.3
-        },
-        {
-          "diameter": 0.9,
-          "drill": 0.5
         }
       ],
-      "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_allow_external_fillets": false
     },
     "layer_presets": [],
     "viewports": []
@@ -394,18 +372,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -415,6 +398,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -426,7 +410,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STS1_SIDEPANEL.kicad_pro",
+    "filename": "flex_pcb_Y-.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -443,7 +427,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -460,9 +444,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../../Program Files/KiCad/6.0/",
+      "netlist": "",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL_X-.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -481,9 +465,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.08
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -491,18 +475,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -513,16 +487,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "395aefd3-a0a9-40b5-88e1-2ee5d738b46f",
       ""
-    ],
-    [
-      "9d03bb93-a9aa-424f-bd25-022f173efd1d",
-      "Sensors"
-    ],
-    [
-      "4f87559b-6bba-4ff6-97a7-dad9a308db2d",
-      "SolarMPPT"
     ]
   ],
   "text_variables": {}
