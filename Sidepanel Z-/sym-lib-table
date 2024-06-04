@@ -1,5 +1,10 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "ZF5S-08-01-T-WT")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/ZF5S-08-01-T-WT.kicad_sym")(options "")(descr ""))
+  (lib (name "54548-2271")(type "Legacy")(uri "${KIPRJMOD}/../libs/symbol/54548-2271.lib")(options "")(descr ""))
+  (lib (name "501461-0491")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/501461-0491.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_Sensor_Optical")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_Sensor_Optical.kicad_sym")(options "")(descr ""))
   (lib (name "STS_Regulator_Switching")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_Regulator_Switching.kicad_sym")(options "")(descr ""))
   (lib (name "STS_RF_Module")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_RF_Module.kicad_sym")(options "")(descr ""))
-  (lib (name "STS_Sensor_Optical")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS_Sensor_Optical.kicad_sym")(options "")(descr ""))
+  (lib (name "STS-connector")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbol/STS-connector.kicad_sym")(options "")(descr ""))
 )

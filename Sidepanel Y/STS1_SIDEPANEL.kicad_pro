@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
-          "height": 5.1,
-          "width": 5.1
+          "drill": 0.0,
+          "height": 7.0,
+          "width": 7.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.5
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -57,9 +57,8 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|141650000|89330000|06b57733-f545-49fc-900f-f90ae9b9047c|0d33a0a3-6701-41b8-8040-7340c4d8cd33",
-        "clearance|141650000|89830000|9ee66366-9074-4bc0-8447-8c0b7199acdf|06b57733-f545-49fc-900f-f90ae9b9047c",
-        "clearance|143150000|89670000|0bb36be2-ca53-49e2-aeb3-4c5728e3d819|a0fa8234-8777-4a66-8b79-9ecbb37d6605"
+        "silk_edge_clearance|84392000|130200000|a0ff6288-33a4-4259-bec6-7407bcd039a1|af4c15ad-fc1f-417a-a6f8-025f1036df58",
+        "silk_edge_clearance|89723052|130297800|7b66ddf8-e6be-4534-b7ac-b112e0dc041a|bfedfbad-0597-479b-9447-1e031c8fd3f2"
       ],
       "meta": {
         "version": 2
@@ -186,7 +185,8 @@
         0.45,
         0.5,
         0.75,
-        1.0
+        1.0,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -208,6 +208,13 @@
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -394,18 +401,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -415,6 +427,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -461,8 +474,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "STS1_SIDEPANEL_Y.step",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -470,6 +486,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -501,7 +519,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },

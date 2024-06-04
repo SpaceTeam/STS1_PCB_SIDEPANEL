@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
-          "height": 5.1,
-          "width": 5.1
+          "drill": 0.0,
+          "height": 20.474998,
+          "width": 79.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -57,8 +57,12 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|153961110|93761680|0a1ac2c6-8da8-4410-b772-69afa2855077|c355ca51-32bc-4d88-a250-07d5621dd709",
-        "clearance|154121110|95261680|dff62e1d-c592-4963-80cb-25d776cdc1f4|742f6656-c86d-41c0-937e-ef6ded3bd482"
+        "silk_edge_clearance|120150000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|3a2b4e4a-e4df-4836-8ba6-f50f59704c20",
+        "silk_edge_clearance|121850000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|5bf810e2-0301-40b2-b0db-351f308659e8",
+        "silk_edge_clearance|124150000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|35119bf0-23c9-4bb2-becd-2a858b5cb4d5",
+        "silk_edge_clearance|125850000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|d3006e26-11be-4e7f-bb12-87a5d58c58e2",
+        "silk_edge_clearance|128150000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|1f3dd671-b973-4373-871e-23d23284bfad",
+        "silk_edge_clearance|129850000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|b4501435-1b74-4814-ac8d-457d48a8c57b"
       ],
       "meta": {
         "version": 2
@@ -105,7 +109,7 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "ignore",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -185,7 +189,8 @@
         0.45,
         0.5,
         0.75,
-        1.0
+        1.0,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -207,6 +212,13 @@
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -393,18 +405,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -414,6 +431,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -457,12 +475,15 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "../../step/STS1_SIDEPANEL.cad",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL_X+.step",
-      "vrml": ""
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "../../step/STS1_SIDEPANEL.dsn",
+      "step": "STS1_SIDEPANEL_Z.step",
+      "svg": "",
+      "vrml": "../../step/sidepanel_Xminus.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -522,6 +543,10 @@
     [
       "4f87559b-6bba-4ff6-97a7-dad9a308db2d",
       "SolarMPPT"
+    ],
+    [
+      "13fd01c2-9c13-4b4c-bd8b-0bea989ca11e",
+      "AntennaDeployment"
     ]
   ],
   "text_variables": {}
