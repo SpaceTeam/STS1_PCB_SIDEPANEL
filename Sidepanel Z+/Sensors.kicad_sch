@@ -271,11 +271,11 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND" (at 0 -3.81 0)
+      (property "Value" "GND1" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -284,13 +284,13 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND1\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_0_1"
+      (symbol "GND1_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -304,9 +304,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1"
+      (symbol "GND1_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "GND1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -470,81 +470,6 @@
     (uuid da60dda5-7498-44b7-8b19-a4238c3602e0)
   )
 
-  (symbol (lib_id "power:GND") (at 71.12 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 090997c4-64d3-45ab-8ad6-d988a0bd139c)
-    (property "Reference" "#PWR03" (at 71.12 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 71.12 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.12 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.12 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 26bbdbb9-8a6b-4cb7-8f2c-5a469031dc21))
-    (instances
-      (project "STS1_SIDEPANEL"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 124.46 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0e37befa-9212-4f4b-bddd-f8ab4d263749)
-    (property "Reference" "#PWR0101" (at 124.46 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.46 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.46 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.46 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 43b584e0-eef6-48d3-9fa7-da0da9059edb))
-    (instances
-      (project "STS1_SIDEPANEL"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
-          (reference "#PWR0101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 71.12 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4b1607b2-4d33-4d49-a8d4-6100ff77215c)
-    (property "Reference" "#PWR04" (at 71.12 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 71.12 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.12 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 71.12 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 26bbdbb9-8a6b-4cb7-8f2c-5a469031dc22))
-    (instances
-      (project "STS1_SIDEPANEL"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 50.8 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 744ba6a5-8f97-44b6-b33c-eda609bf7e9f)
@@ -566,6 +491,31 @@
       (project "STS1_SIDEPANEL"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 50.8 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7dcefe9c-d6b3-4007-842a-b25d6ba484c9)
+    (property "Reference" "#PWR02" (at 50.8 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 50.8 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 50.8 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 50.8 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 48006562-f4dc-4da0-b710-f119407d2224))
+    (instances
+      (project "STS1_SIDEPANEL"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -620,6 +570,56 @@
       (project "STS1_SIDEPANEL"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 71.12 48.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b5c795c5-96a7-497b-9285-051280e2216a)
+    (property "Reference" "#PWR03" (at 71.12 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 71.12 53.34 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 71.12 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 71.12 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1028c50e-df4b-4144-b9ee-b3f7609508ae))
+    (instances
+      (project "STS1_SIDEPANEL"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 124.46 48.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b9e3edcf-60df-4eb0-8f07-ff648e351988)
+    (property "Reference" "#PWR04" (at 124.46 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 124.46 52.705 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 124.46 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 124.46 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d34f5a8d-2274-41fa-a0c9-e8c8a66fc595))
+    (instances
+      (project "STS1_SIDEPANEL"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -694,31 +694,6 @@
       (project "STS1_SIDEPANEL"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
           (reference "IC1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 50.8 54.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d991a1cc-63a8-4b24-b73f-66d13dd183c9)
-    (property "Reference" "#PWR02" (at 50.8 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 50.8 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 50.8 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3eb0b9e2-8231-4f07-986b-df307dd0e7bb))
-    (instances
-      (project "STS1_SIDEPANEL"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9d03bb93-a9aa-424f-bd25-022f173efd1d"
-          (reference "#PWR02") (unit 1)
         )
       )
     )

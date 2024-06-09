@@ -3,6 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -35,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 20.474998,
-          "width": 79.4
+          "height": 4.0,
+          "width": 7.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,14 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|120150000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|3a2b4e4a-e4df-4836-8ba6-f50f59704c20",
-        "silk_edge_clearance|121850000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|5bf810e2-0301-40b2-b0db-351f308659e8",
-        "silk_edge_clearance|124150000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|35119bf0-23c9-4bb2-becd-2a858b5cb4d5",
-        "silk_edge_clearance|125850000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|d3006e26-11be-4e7f-bb12-87a5d58c58e2",
-        "silk_edge_clearance|128150000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|1f3dd671-b973-4373-871e-23d23284bfad",
-        "silk_edge_clearance|129850000|90000000|673bfed3-8ea2-4c4e-90cb-43c157577acc|b4501435-1b74-4814-ac8d-457d48a8c57b"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -192,6 +188,32 @@
         1.0,
         2.0
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -481,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "../../step/STS1_SIDEPANEL.dsn",
-      "step": "STS1_SIDEPANEL_Z.step",
+      "step": "../../step/STS1_SIDEPANEL_X+.step",
       "svg": "",
       "vrml": "../../step/sidepanel_Xminus.wrl"
     },

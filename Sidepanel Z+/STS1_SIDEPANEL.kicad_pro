@@ -466,7 +466,7 @@
       "idf": "",
       "netlist": "../../../../../Program Files/KiCad/6.0/",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL_X-.step",
+      "step": "../../step/STS1_SIDEPANEL_Z+.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -347,6 +347,46 @@
         )
       )
     )
+    (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND1" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND1\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND1_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND1_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 59.944 78.486) (diameter 0) (color 0 0 0 0)
@@ -355,7 +395,6 @@
 
   (no_connect (at 95.25 78.74) (uuid 0db678a5-427b-498b-8054-fbe539ac9b44))
   (no_connect (at 95.25 76.2) (uuid c9ff5194-620e-4ea2-9ee1-0d8e448f677e))
-  (no_connect (at 118.11 83.82) (uuid ec9f261a-68ad-4324-bc90-76b77d6eefa7))
 
   (wire (pts (xy 50.038 78.486) (xy 59.944 78.486))
     (stroke (width 0) (type default))
@@ -579,6 +618,31 @@
       (project "STS1_SIDEPANEL"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0113") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 118.11 83.82 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2d474239-181d-4c0e-a2ef-3c167d72999b)
+    (property "Reference" "#PWR01" (at 124.46 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 121.92 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 118.11 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 118.11 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 881768c6-7e88-481d-af02-c1125ff17d50))
+    (instances
+      (project "STS1_SIDEPANEL"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR01") (unit 1)
         )
       )
     )

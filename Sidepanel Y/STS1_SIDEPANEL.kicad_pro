@@ -3,6 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -56,10 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|84392000|130200000|a0ff6288-33a4-4259-bec6-7407bcd039a1|af4c15ad-fc1f-417a-a6f8-025f1036df58",
-        "silk_edge_clearance|89723052|130297800|7b66ddf8-e6be-4534-b7ac-b112e0dc041a|bfedfbad-0597-479b-9447-1e031c8fd3f2"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -188,6 +188,32 @@
         1.0,
         1.5
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -477,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "STS1_SIDEPANEL_Y.step",
+      "step": "../../step/STS1_SIDEPANEL_Y.step",
       "svg": "",
       "vrml": ""
     },
