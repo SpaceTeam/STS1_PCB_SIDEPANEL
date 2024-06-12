@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 4.0,
-          "width": 7.5
+          "drill": 5.0,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -557,10 +557,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
-    ],
-    [
-      "9d03bb93-a9aa-424f-bd25-022f173efd1d",
-      "Sensors"
     ],
     [
       "4f87559b-6bba-4ff6-97a7-dad9a308db2d",
