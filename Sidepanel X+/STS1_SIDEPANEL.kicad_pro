@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.0,
+          "drill": 0.0,
           "height": 6.0,
-          "width": 6.0
+          "width": 9.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -186,6 +186,7 @@
         0.5,
         0.75,
         1.0,
+        1.5,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -499,7 +500,7 @@
     "last_paths": {
       "gencad": "../../step/STS1_SIDEPANEL.cad",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "../../step/STS1_SIDEPANEL.dsn",
