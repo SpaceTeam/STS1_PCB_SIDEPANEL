@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "FM_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../step/STS1_SIDEPANEL_Y.step",

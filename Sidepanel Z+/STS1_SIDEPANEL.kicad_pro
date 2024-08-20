@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../../Program Files/KiCad/6.0/",
-      "plot": "",
+      "plot": "FM_Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../step/STS1_SIDEPANEL_Z+.step",
