@@ -1,0 +1,10 @@
+### Footprint positions - created on 2024-08-20T20:38:05+0200 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                   PosX       PosY       Rot  Side
+Outline1  OUTLINE_Sidepanel  OUTLINE_SidepanelX+     0.0000     0.0000    0.0000  top
+RD2       22R                R_MiniMELF_MMA-0204     0.0000     0.0000  -90.0000  top
+SC1       Solar_Cell         3G30A_40x80_Z_SC1      -0.0302    24.1570    0.0000  top
+SC2       Solar_Cell         3G30A_40x80_Z_SC2       0.1016   -22.4774  180.0000  top
+## End

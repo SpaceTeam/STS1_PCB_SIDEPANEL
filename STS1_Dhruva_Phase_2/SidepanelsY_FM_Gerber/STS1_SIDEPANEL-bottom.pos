@@ -1,0 +1,49 @@
+### Footprint positions - created on 2024-08-20T20:42:09+0200 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+C1        1u              C_0603_1608Metric                               9.2500   -39.9500    0.0000  bottom
+C11       22u             C_0805_2012Metric                             -20.9900     2.9400  -90.0000  bottom
+C12       22u             C_0805_2012Metric                              25.6540    -0.5740   90.0000  bottom
+C21       1n              C_0603_1608Metric                              -9.7852     3.4208  180.0000  bottom
+C22       1n              C_0603_1608Metric                              13.5905    -0.3540  -90.0000  bottom
+C31       1n              C_0603_1608Metric                              -4.6700     9.4550   90.0000  bottom
+C32       1n              C_0603_1608Metric                               8.8900    -7.1120  -90.0000  bottom
+C41       22u             C_0805_2012Metric                             -12.4900    11.2000  180.0000  bottom
+C42       22u             C_0805_2012Metric                              16.4300    -8.9300    0.0000  bottom
+C51       1u              C_0603_1608Metric                              -2.3700     6.1150  -90.0000  bottom
+C52       1u              C_0603_1608Metric                               7.2405    -3.6560   90.0000  bottom
+C61       22u             C_0805_2012Metric                             -23.1200     2.9700  -90.0000  bottom
+C62       22u             C_0805_2012Metric                              27.6860    -0.6080   90.0000  bottom
+D11       PMEG2020EH      D_SOD-123F                                    -12.1600     9.0100  180.0000  bottom
+D12       PMEG2020EH      D_SOD-123F                                     17.1465    -6.7040    0.0000  bottom
+D21       SMM4F5.0        DIO_SMM4F5.0A-TR                              -10.8800    13.4700  180.0000  bottom
+D22       SMM4F5.0        DIO_SMM4F5.0A-TR                               15.9200   -11.2700    0.0000  bottom
+IC1       TMP112AQDRLRQ1  SOT-563                                         6.7825   -37.8250  -90.0000  bottom
+J1        Conn_01x08      SAMTEC_ZF5S-08-01-T-WT                        -26.3800   -35.8930    0.0000  bottom
+L1        10u             IND_XAL6060-103MEC                            -16.0125     4.2600    0.0000  bottom
+L2        10u             IND_XAL6060-103MEC                             21.1985    -1.8780  180.0000  bottom
+MPPT1     SPV1040TTR      TSSOP-8_4.4x3mm_P0.65mm                        -7.7786     6.0370    0.0000  bottom
+MPPT2     SPV1040TTR      TSSOP-8_4.4x3mm_P0.65mm                        12.2415    -3.7170  180.0000  bottom
+R11       10m             R_0805_2012Metric                             -26.1800     3.7750    0.0000  bottom
+R12       10m             R_0805_2012Metric                              30.2260    -3.3020  180.0000  bottom
+R21       1k              R_0603_1608Metric                              -8.0350     1.7600    0.0000  bottom
+R22       1k              R_0603_1608Metric                              12.0665    -0.3540   90.0000  bottom
+R31       1k              R_0603_1608Metric                              -0.0850     5.3250  180.0000  bottom
+R32       1k              R_0603_1608Metric                               4.9545    -2.8940    0.0000  bottom
+R41       1k              R_0603_1608Metric                              -0.0900     6.8650  180.0000  bottom
+R42       1k              R_0603_1608Metric                               4.9545    -4.4180    0.0000  bottom
+R51       220m            R_0805_2012Metric                              -8.4725    11.1900  180.0000  bottom
+R52       220m            R_0805_2012Metric                              12.8285    -8.4690    0.0000  bottom
+R61       1M              R_0603_1608Metric                              -1.4500     9.4800   90.0000  bottom
+R62       1M              R_0603_1608Metric                               5.8420    -7.1120  -90.0000  bottom
+R71       330k            R_0603_1608Metric                              -3.0500     9.4800  -90.0000  bottom
+R72       330k            R_0603_1608Metric                               7.3660    -7.1120   90.0000  bottom
+RU1       4k7             R_0603_1608Metric                               1.1750   -37.0500    0.0000  bottom
+RU2       4k7             R_0603_1608Metric                               1.1750   -38.6000    0.0000  bottom
+TH1       Thermistor_NTC  R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   -14.5000   -28.8250    0.0000  bottom
+U11       INA180A4        SOT-23-5                                      -28.2200    -0.4700    0.0000  bottom
+U12       INA180A4        SOT-23-5                                       32.0040     2.2200  180.0000  bottom
+UV1       501461-0491     200528-0040                                   -22.8600   -12.0000    0.0000  bottom
+## End

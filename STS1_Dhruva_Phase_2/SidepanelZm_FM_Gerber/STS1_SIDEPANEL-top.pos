@@ -1,0 +1,11 @@
+### Footprint positions - created on 2024-08-20T20:45:17+0200 ###
+### Printed by KiCad version 8.0.4
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                   PosX       PosY       Rot  Side
+J3        Conn_01x12         conn_to_panel          -4.5000    18.3250   90.0000  top
+Outline1  OUTLINE_Sidepanel  OUTLINE_SidepanelZ-     0.0000     0.0000    0.0000  top
+SC1       Solar_Cell         3G30A_40x80            -0.0508   -13.2098  180.0000  top
+U1        GUVA-C32SM         OLGA                   34.7500    12.6100  -90.0000  top
+uci_conn  conn_to_panel      conn_to_panel          13.3096    18.3134   90.0000  top
+## End
