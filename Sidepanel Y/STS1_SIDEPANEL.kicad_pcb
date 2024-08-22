@@ -224,7 +224,7 @@
 				)
 			)
 		)
-		(property "Description" "Single solar cell"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -505,7 +505,7 @@
 				)
 			)
 		)
-		(property "Description" "Single solar cell"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1187,6 +1187,7 @@
 			)
 		)
 		(path "/6503b427-07c6-4391-8fa6-4757fb4daa6c")
+		(sheetname "Root")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
@@ -1542,7 +1543,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1554,7 +1555,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9800fec4-2f70-44cf-84e6-22af43c255e5")
+		(sheetname "Root")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd allow_soldermask_bridges)
 		(fp_line
@@ -1870,7 +1873,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1882,6 +1885,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/a554cf31-0806-4740-ba0b-f0d59599f4ca")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -2081,7 +2085,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2093,6 +2097,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/bfe4e68f-4cef-4b31-adff-8df094bc3870")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -2323,7 +2328,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2335,6 +2340,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/82ea5262-8cb0-4aa3-ac2d-a35dc022e2a3")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -2539,7 +2545,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2551,6 +2557,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/a55e8f37-3a40-4891-8c74-33a8594121a8")
 		(sheetname "Sensors")
 		(sheetfile "Sensors.kicad_sch")
@@ -2740,7 +2747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2752,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Description" "20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2764,6 +2771,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SOD?123F*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/0fcd81e5-6938-49bb-b208-07f72cfc0780")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -3430,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Description" "MOLEX - 501461-0491 - CONNECTOR, FPC, 4POS, 1ROW, 0.5MM"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3586,6 +3594,7 @@
 			)
 		)
 		(path "/51a1d03d-d1b0-433b-a1de-be96d363771f")
+		(sheetname "Root")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3788,7 +3797,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "3k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3825,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3837,6 +3846,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/e1346523-fb50-45bf-95f3-9548c2d83416")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -4038,7 +4048,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4050,6 +4060,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c0ee5ea3-32c4-4461-a3b9-e25cc4c00586")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -4249,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4261,6 +4272,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/c6a198d2-e0e4-4d6d-8a2a-bdeb249501be")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -4495,7 +4507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4507,7 +4519,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 200 V/V, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4519,6 +4531,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/2233fb17-25c2-4beb-a544-4a59c9db9224")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -4791,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4803,6 +4816,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/65c76957-ccfc-4d5b-b7d9-2ee7c354f524")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -5048,7 +5062,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5060,6 +5074,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/fe5a620e-3c7b-49ed-9b65-8f4b0955f6d6")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -5264,7 +5279,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5276,6 +5291,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/6f4b8cc8-d074-419d-84da-024a34781ce5")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -5477,7 +5493,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5489,6 +5505,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/9e46bd10-7b37-4a3f-9b0f-c9e39e63213b")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -5653,7 +5670,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "3k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -5690,7 +5707,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5702,6 +5719,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/548d9577-1c12-4167-8fdd-bb768e95bfba")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -6286,7 +6304,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6298,6 +6316,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/129418ce-d6b4-4659-a3b1-673083fbd694")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -6499,7 +6518,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6511,6 +6530,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/56ac33c8-3219-47a8-9412-71ca3d14d60f")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -6711,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6723,6 +6743,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/8730d60f-e268-4e0c-8f24-4a60f45c57b7")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -6923,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6935,6 +6956,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/062bbb8b-bb25-4f1a-b150-3ae40f70064e")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -7135,7 +7157,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7147,6 +7169,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/8fb9ab09-c850-4fd5-af65-352e16a16b02")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -7348,7 +7371,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7360,6 +7383,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/92bb8e51-1237-46be-b5a7-f20aabc73d15")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -7560,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7572,6 +7596,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/493cfbd5-70dc-4af7-8244-b4cc1170389b")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -7776,7 +7801,7 @@
 				)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7788,7 +7813,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/cd74d053-e62a-45a3-9f24-631862f85655")
+		(sheetname "Root")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7975,7 +8002,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7987,6 +8014,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/744ba6a5-8f97-44b6-b33c-eda609bf7e9f")
 		(sheetname "Sensors")
 		(sheetfile "Sensors.kicad_sch")
@@ -8187,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8199,6 +8227,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/ca5ccf6b-ad90-45ee-9525-9a72d2679012")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -8366,7 +8395,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "1k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8403,7 +8432,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8415,6 +8444,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/9543b01e-8e44-4a77-a087-bd19ba13a7aa")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -8616,7 +8646,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8628,6 +8658,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/ee78b711-7094-4cc8-bb1c-f9a38aacbad4")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -8829,7 +8860,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8841,6 +8872,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/7d82597c-a6da-438e-a647-fb7947541ddd")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -9042,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9054,6 +9086,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/96c4fad2-7668-416a-9fb9-7e2c0093dd23")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -9254,7 +9287,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9266,6 +9299,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/57b1d85b-f2b3-465c-a6f8-070b903d5730")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -9455,7 +9489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9467,7 +9501,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 200 V/V, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9479,6 +9513,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/6ebf0987-56ef-44f4-b1f0-250c65d86937")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -9753,7 +9788,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9765,6 +9800,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9d03bb93-a9aa-424f-bd25-022f173efd1d/d52378b2-cfc6-4311-b4f2-25f7fae0cc6b")
 		(sheetname "Sensors")
 		(sheetfile "Sensors.kicad_sch")
@@ -9929,7 +9965,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "1k"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -9966,7 +10002,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9978,6 +10014,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/409358b9-26a5-42f9-9d8c-e6777bea34b0")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -10178,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10190,6 +10227,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/5858287d-fda1-4244-9df1-d13393f27f3f")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -10394,7 +10432,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10406,6 +10444,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/d8975f61-2993-4a2f-af0e-c26435b06fce")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -10607,7 +10646,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10619,6 +10658,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/b5460c15-2e46-49b3-b9b9-1c8c7c0ddd64")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -10818,7 +10858,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10830,6 +10870,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/06a966cd-4913-436b-a217-7ac14ca6801e")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -11049,7 +11090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/gpn/tmp112-q1"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11392,7 +11433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2020EH_EJ.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11404,7 +11445,7 @@
 				)
 			)
 		)
-		(property "Description" "20V, 2A very low Vf MEGA Schottky barrier rectifier, SOD-123F"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11416,6 +11457,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SOD?123F*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/249ef15b-e332-4f06-8705-dcd4c52a6778")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
@@ -11700,7 +11742,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11712,6 +11754,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4f87559b-6bba-4ff6-97a7-dad9a308db2d/ec7cd3de-8fcd-4158-9beb-9518182e4873")
 		(sheetname "SolarMPPT")
 		(sheetfile "SolarMPPT.kicad_sch")
