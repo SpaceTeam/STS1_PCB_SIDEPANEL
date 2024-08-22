@@ -4456,7 +4456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5858287d-fda1-4244-9df1-d13393f27f3f")
-		(property "Reference" "C52"
+		(property "Reference" "C42"
 			(at 175.895 108.585 0)
 			(effects
 				(font
@@ -4510,7 +4510,7 @@
 		(instances
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "C52")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -5215,7 +5215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fb9ab09-c850-4fd5-af65-352e16a16b02")
-		(property "Reference" "C51"
+		(property "Reference" "C41"
 			(at 168.91 35.56 0)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 		(instances
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "C51")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c4fad2-7668-416a-9fb9-7e2c0093dd23")
-		(property "Reference" "C41"
+		(property "Reference" "C51"
 			(at 171.45 57.1436 0)
 			(effects
 				(font
@@ -5550,7 +5550,7 @@
 		(instances
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "C41")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -5633,7 +5633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e46bd10-7b37-4a3f-9b0f-c9e39e63213b")
-		(property "Reference" "C42"
+		(property "Reference" "C52"
 			(at 179.07 130.1686 0)
 			(effects
 				(font
@@ -5687,7 +5687,7 @@
 		(instances
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "C42")
+					(reference "C52")
 					(unit 1)
 				)
 			)

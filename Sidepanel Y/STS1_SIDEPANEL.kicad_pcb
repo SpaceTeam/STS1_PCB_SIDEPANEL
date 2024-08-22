@@ -1187,7 +1187,7 @@
 			)
 		)
 		(path "/6503b427-07c6-4391-8fa6-4757fb4daa6c")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
@@ -1557,7 +1557,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9800fec4-2f70-44cf-84e6-22af43c255e5")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd allow_soldermask_bridges)
 		(fp_line
@@ -3594,7 +3594,7 @@
 			)
 		)
 		(path "/51a1d03d-d1b0-433b-a1de-be96d363771f")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7815,7 +7815,7 @@
 		)
 		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/cd74d053-e62a-45a3-9f24-631862f85655")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd)
 		(fp_line

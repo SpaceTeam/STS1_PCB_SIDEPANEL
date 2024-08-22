@@ -1051,7 +1051,7 @@
 			)
 		)
 		(path "/6503b427-07c6-4391-8fa6-4757fb4daa6c")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_line
@@ -1380,7 +1380,7 @@
 		(at 101.3 75.225 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C51"
+		(property "Reference" "C41"
 			(at 0 1.68 0)
 			(layer "B.SilkS")
 			(uuid "b304e0b9-d910-4faa-9b42-049459734c8e")
@@ -1678,7 +1678,7 @@
 		)
 		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/a4d49e7c-3f1b-4d80-bed7-772a82216d80")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1895,7 +1895,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/bc26867e-2044-46bb-8920-dfb46ce37aad")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6010,7 +6010,7 @@
 		(at 158.594 88.8705)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C42"
+		(property "Reference" "C52"
 			(at 2.794 0 0)
 			(layer "B.SilkS")
 			(uuid "35cef35d-ca74-4423-b6cb-a4ff189f498b")
@@ -7558,7 +7558,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6a3952a3-3295-436c-b69e-f8999b958ed6")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "STS1_SIDEPANEL.kicad_sch")
 		(attr smd allow_soldermask_bridges)
 		(fp_line
@@ -9912,7 +9912,7 @@
 		(at 153.33 98.07 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C52"
+		(property "Reference" "C42"
 			(at 3.12 -0.02 90)
 			(layer "B.SilkS")
 			(uuid "a278d88a-9647-4fc4-9370-e93f367e9be7")
@@ -10131,7 +10131,7 @@
 		(at 111.4 80.325 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C41"
+		(property "Reference" "C51"
 			(at 0 1.43 90)
 			(layer "B.SilkS")
 			(uuid "4dbb5c20-8880-4a2d-90bf-8e68dd38d69e")
