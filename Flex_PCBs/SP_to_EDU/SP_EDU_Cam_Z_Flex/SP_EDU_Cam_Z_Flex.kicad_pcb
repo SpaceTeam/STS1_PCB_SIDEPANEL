@@ -768,8 +768,8 @@
 		(layer "User.1")
 		(uuid "95b71360-a4fb-4c45-9b4f-fb9f1ea9672f")
 	)
-	(gr_text "SP_EDU_Cam_ZM_Flex_V1.0"
-		(at 135.05 96.9 -90)
+	(gr_text "SP_EDU_Cam_Z_Flex_V1.0"
+		(at 132.35 128 90)
 		(layer "F.SilkS")
 		(uuid "83cdeb1d-358c-43c1-b096-8bbf30fd89af")
 		(effects
