@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SP_EDU_YM_Flex.kicad_pro",
+    "filename": "SP_EDU_Z_Flex.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

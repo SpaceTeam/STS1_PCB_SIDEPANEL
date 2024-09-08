@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/stefan/DEV/spaceteam/gerber/Y-/")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -156,7 +156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STS_connector:flexpcb con."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -311,7 +311,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STS_connector:flexpcb con."
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)

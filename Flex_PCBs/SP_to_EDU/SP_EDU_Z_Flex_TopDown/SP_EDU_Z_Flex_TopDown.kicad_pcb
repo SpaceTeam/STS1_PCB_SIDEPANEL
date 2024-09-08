@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/stefan/DEV/spaceteam/gerber/Y-/")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -478,7 +478,7 @@
 	)
 	(gr_rect
 		(start 123.079 44.6734)
-		(end 127.579 53.9362)
+		(end 127.579 52.1734)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -488,8 +488,8 @@
 		(uuid "9726a18a-9dae-47e7-80b9-6ab716011aa4")
 	)
 	(gr_rect
-		(start 123.079 99.4134)
-		(end 127.579 108.6734)
+		(start 123.079 101.2)
+		(end 127.579 108.7)
 		(stroke
 			(width 0.15)
 			(type solid)

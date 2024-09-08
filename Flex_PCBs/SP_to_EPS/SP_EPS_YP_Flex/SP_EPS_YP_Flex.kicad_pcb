@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/stefan/DEV/spaceteam/gerber/Y-/")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Footprint" "STS_connector:flexpcb con."
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e20e8dec-51a2-4212-87ad-aef6ac95d3d8")
@@ -170,7 +170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "03fe1c8a-3777-4320-82f9-418a70cd2434")
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "02b1b0b4-af36-4edb-a8ac-c136eefad1d8")

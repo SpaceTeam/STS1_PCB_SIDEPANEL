@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/stefan/DEV/spaceteam/gerber/edu_cam/")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -801,6 +801,72 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "a1a86abb-2503-4429-a6f4-48baaf2a2c57")
+		(pts
+			(xy 130 134) (xy 130 69.98)
+		)
+		(height -3.7)
+		(gr_text "64,0200 mm"
+			(at 125.15 101.99 90)
+			(layer "User.1")
+			(uuid "a1a86abb-2503-4429-a6f4-48baaf2a2c57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "facddee0-8100-43a8-8c77-161d4f1bb3d8")
+		(pts
+			(xy 130 74.98) (xy 130 70)
+		)
+		(height -1.15)
+		(gr_text "4,9800 mm"
+			(at 127.7 72.49 90)
+			(layer "User.1")
+			(uuid "facddee0-8100-43a8-8c77-161d4f1bb3d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 130.45 71.25)

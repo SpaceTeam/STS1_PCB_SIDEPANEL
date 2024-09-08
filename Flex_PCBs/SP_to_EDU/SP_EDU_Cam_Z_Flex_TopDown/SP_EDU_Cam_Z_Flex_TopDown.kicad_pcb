@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/stefan/DEV/spaceteam/gerber/edu_cam/")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
@@ -801,6 +801,39 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "2bed4b55-1e01-46ad-93f1-0fe81ce48e44")
+		(pts
+			(xy 130 74.98) (xy 130 69.98)
+		)
+		(height -3.6)
+		(gr_text "5,0000 mm"
+			(at 125.25 72.48 90)
+			(layer "User.1")
+			(uuid "2bed4b55-1e01-46ad-93f1-0fe81ce48e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type aligned)

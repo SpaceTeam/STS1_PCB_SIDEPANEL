@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/stefan/DEV/spaceteam/gerber/Y-/")
+			(outputdirectory "Gerber/")
 		)
 	)
 	(net 0 "")
