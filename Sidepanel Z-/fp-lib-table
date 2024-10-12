@@ -10,4 +10,5 @@
   (lib (name "STS_Logo")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_Logo.pretty")(options "")(descr ""))
   (lib (name "STS_Inductor_SMD")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_Inductor_SMD.pretty")(options "")(descr ""))
   (lib (name "STS_semiconductor")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprint/STS_semiconductor")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "/home/stefan/DEV/spaceteam/footprints/LIB_52435-2271/52435-2271/KiCad")(options "")(descr ""))
 )

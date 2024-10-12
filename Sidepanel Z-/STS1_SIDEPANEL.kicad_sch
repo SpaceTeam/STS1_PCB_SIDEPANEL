@@ -5,6 +5,606 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(lib_symbols
+		(symbol "54548-2271_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "cam1"
+				(at 11.43 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "52435-2271"
+				(at 11.43 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "STS_connector:524352271"
+				(at -8.636 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reference_1" "J3"
+				(at 11.43 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value_1" "54548-2271"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint_1" "545482271"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet_1" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0545482271_FFC_FPC_CONNECTORS.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "54548-2271"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-54548-2271"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54548-2271?qs=qM7ngqbhX5X3ZiWzRWv9wA%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "54548-2271_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -55.88)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -22.86 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -27.94 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -30.48 180)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -33.02 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -35.56 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -38.1 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -40.64 180)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -43.18 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -45.72 180)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -48.26 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -50.8 180)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -53.34 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Cam:54548-2271"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2550,6 +3150,10 @@
 		)
 	)
 	(no_connect
+		(at 133.35 78.74)
+		(uuid "04dbe626-4e95-4b8d-a049-bb5a1597f5ac")
+	)
+	(no_connect
 		(at 40.64 116.84)
 		(uuid "13bf3188-8b0e-4765-85d0-552fb0a03b77")
 	)
@@ -2570,7 +3174,11 @@
 		(uuid "68016c4d-1edb-4aad-a1f5-290a4c64b3b0")
 	)
 	(no_connect
-		(at 166.37 69.85)
+		(at 133.35 74.93)
+		(uuid "7134cf0f-33f2-409c-a8c9-a968f878b870")
+	)
+	(no_connect
+		(at 212.09 69.85)
 		(uuid "7405e947-26e8-444b-83c0-0e227b6e5c81")
 	)
 	(no_connect
@@ -2582,7 +3190,7 @@
 		(uuid "b3ed8c92-37ea-4e7e-8279-97e324911211")
 	)
 	(no_connect
-		(at 166.37 72.39)
+		(at 212.09 72.39)
 		(uuid "b9d18eb0-3109-4fa8-82ba-3f547744ab9e")
 	)
 	(no_connect
@@ -2642,6 +3250,16 @@
 			(type default)
 		)
 		(uuid "0e5f4ae8-1260-4fff-8c86-5ace5ffcbce9")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5c2cb7-3e1a-4daa-939d-b123f5be91bb")
 	)
 	(wire
 		(pts
@@ -2715,16 +3333,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 189.23 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3109515b-aa1b-4f3a-93fc-fcb957573723")
-	)
-	(wire
-		(pts
 			(xy 96.52 36.83) (xy 104.14 36.83)
 		)
 		(stroke
@@ -2732,36 +3340,6 @@
 			(type default)
 		)
 		(uuid "31680ce0-53a7-4d64-9e2c-f986b9ead8b4")
-	)
-	(wire
-		(pts
-			(xy 160.02 64.77) (xy 191.77 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e09a079-54f8-4412-82a1-10a85852d305")
-	)
-	(wire
-		(pts
-			(xy 189.23 72.39) (xy 193.04 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518ee8dd-7bbd-456a-9b0b-f4310c9fe776")
-	)
-	(wire
-		(pts
-			(xy 156.21 69.85) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5595be9f-4894-4d50-9c8c-5fd885b5caba")
 	)
 	(wire
 		(pts
@@ -2775,13 +3353,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 72.39) (xy 193.04 66.04)
+			(xy 156.21 72.39) (xy 189.23 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "672ab937-3fe7-45a5-917b-265d832f5c3b")
+		(uuid "6e454c3a-acf0-46c7-bd94-e2ad5ba73df1")
 	)
 	(wire
 		(pts
@@ -2805,16 +3383,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 64.77) (xy 191.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a4de47-7d17-46ee-a7e1-c3a99cc9606a")
-	)
-	(wire
-		(pts
 			(xy 96.52 34.29) (xy 104.14 34.29)
 		)
 		(stroke
@@ -2822,16 +3390,6 @@
 			(type default)
 		)
 		(uuid "74bf2d29-aaa9-49c5-b4ef-2f717e7c6bfa")
-	)
-	(wire
-		(pts
-			(xy 161.29 72.39) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835e14af-b47e-41fc-92fa-13c0a0426add")
 	)
 	(wire
 		(pts
@@ -2872,16 +3430,6 @@
 			(type default)
 		)
 		(uuid "a1979a3d-9c0e-42d6-b46d-45ccde2fea61")
-	)
-	(wire
-		(pts
-			(xy 161.29 66.04) (xy 161.29 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb3020b-7787-4edd-ba8c-d1550a12d1de")
 	)
 	(wire
 		(pts
@@ -2962,26 +3510,6 @@
 			(type default)
 		)
 		(uuid "d76e162d-6817-47d3-bcfc-7b0cf75afc8c")
-	)
-	(wire
-		(pts
-			(xy 193.04 66.04) (xy 161.29 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1f6091-8084-4841-9669-9cd3d5ca0878")
-	)
-	(wire
-		(pts
-			(xy 160.02 69.85) (xy 160.02 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8896c2d-bc85-4cee-88e1-c452a83e8a68")
 	)
 	(wire
 		(pts
@@ -3975,6 +4503,7 @@
 		)
 	)
 	(symbol
+		(lib_name "54548-2271_1")
 		(lib_id "Cam:54548-2271")
 		(at 133.35 69.85 0)
 		(unit 1)
@@ -3992,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Value" "54548-2271"
+		(property "Value" "52435-2271"
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -4000,8 +4529,8 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_connector:545482271"
-			(at 133.35 69.85 0)
+		(property "Footprint" "STS_connector:524352271"
+			(at 124.714 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,10 +4708,10 @@
 		(pin "22"
 			(uuid "5271e14e-0916-4c24-a5ad-18febc6ac2c6")
 		)
-		(pin "23"
+		(pin "MP1"
 			(uuid "8c232aea-a85c-4ebd-a9cc-4693c62dbbd5")
 		)
-		(pin "24"
+		(pin "MP2"
 			(uuid "fdf78d3b-ee64-49d3-a5d8-dba521ab58a6")
 		)
 		(pin "3"
@@ -4351,7 +4880,8 @@
 	)
 	(symbol
 		(lib_id "Cam:54548-2271")
-		(at 166.37 69.85 0)
+		(at 212.09 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4359,7 +4889,7 @@
 		(dnp no)
 		(uuid "bb9f12bd-1187-45b5-8c11-abba42078b33")
 		(property "Reference" "edu_con1"
-			(at 177.8 57.15 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4897,7 @@
 			)
 		)
 		(property "Value" "54548-2271"
-			(at 177.8 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4905,7 @@
 			)
 		)
 		(property "Footprint" "STS_connector:545482271"
-			(at 166.37 69.85 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 69.85 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 69.85 0)
+			(at 212.09 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4932,7 @@
 			)
 		)
 		(property "Reference_1" "J4"
-			(at 177.8 62.23 0)
+			(at 200.66 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +4940,7 @@
 			)
 		)
 		(property "Value_1" "54548-2271"
-			(at 177.8 64.77 0)
+			(at 200.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4949,7 @@
 			)
 		)
 		(property "Footprint_1" "545482271"
-			(at 185.42 164.77 0)
+			(at 193.04 164.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4959,7 @@
 			)
 		)
 		(property "Datasheet_1" "http://www.molex.com/webdocs/datasheets/pdf/en-us//0545482271_FFC_FPC_CONNECTORS.pdf"
-			(at 185.42 264.77 0)
+			(at 193.04 264.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4969,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 185.42 464.77 0)
+			(at 193.04 464.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4979,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 185.42 564.77 0)
+			(at 193.04 564.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4989,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "54548-2271"
-			(at 185.42 664.77 0)
+			(at 193.04 664.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4999,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-54548-2271"
-			(at 185.42 764.77 0)
+			(at 193.04 764.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +5009,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54548-2271?qs=qM7ngqbhX5X3ZiWzRWv9wA%3D%3D"
-			(at 185.42 864.77 0)
+			(at 193.04 864.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +5019,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 185.42 964.77 0)
+			(at 193.04 964.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +5029,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 185.42 1064.77 0)
+			(at 193.04 1064.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
