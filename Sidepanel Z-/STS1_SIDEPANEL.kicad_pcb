@@ -1566,7 +1566,7 @@
 		)
 		(fp_arc
 			(start 1.842927 -23.275957)
-			(mid 1.206593 -23.605054)
+			(mid 1.206596 -23.605055)
 			(end 0.94 -24.27)
 			(stroke
 				(width 0.05)
@@ -1588,7 +1588,7 @@
 		)
 		(fp_arc
 			(start 7.937653 -24.17174)
-			(mid 7.59436 -23.548792)
+			(mid 7.594362 -23.548791)
 			(end 6.94 -23.27)
 			(stroke
 				(width 0.05)
@@ -1632,7 +1632,7 @@
 		)
 		(fp_arc
 			(start 28.4 -26.9)
-			(mid 28.190731 -26.563652)
+			(mid 28.190734 -26.56367)
 			(end 27.83 -26.4)
 			(stroke
 				(width 0.05)
@@ -7858,15 +7858,15 @@
 			(pintype "passive+no_connect")
 			(uuid "809a5ad7-6d93-4b7f-909d-8f2ad87b4fab")
 		)
-		(model "52435-2271.stp"
+		(model "/home/stefan/DEV/spaceteam/STS1_PCB_SIDEPANEL/libs/3d/STS_Connector/52435-2271.stp"
 			(offset
-				(xyz 0 2.099999873 0.04999999999)
+				(xyz 0 -1.4 -0.45)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -13340,12 +13340,28 @@
 		(uuid "938adeda-46a4-4de5-b8f5-6c499128ea3f")
 	)
 	(segment
+		(start 124.9492 100.7098)
+		(end 148.9492 100.7098)
+		(width 2)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "3807a9a4-bbab-49ed-8129-45fac147cd15")
+	)
+	(segment
 		(start 149.0442 100.8048)
 		(end 148.9492 100.7098)
 		(width 1)
 		(layer "F.Cu")
 		(net 8)
 		(uuid "cf7f2b2c-5eab-4175-96b4-cf488be827dd")
+	)
+	(segment
+		(start 124.9492 100.7098)
+		(end 98.9492 100.7098)
+		(width 2)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "fb60b052-7fa5-40be-ab0f-2ffff38c7bfc")
 	)
 	(via
 		(at 104 116.4)

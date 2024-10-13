@@ -1271,7 +1271,7 @@
 		)
 		(fp_arc
 			(start 40.84 -46.43)
-			(mid 41.190522 -46.303293)
+			(mid 41.190544 -46.303303)
 			(end 41.4 -45.995)
 			(stroke
 				(width 0.1)
@@ -7669,15 +7669,15 @@
 			(pintype "passive+no_connect")
 			(uuid "9ae17f57-9773-4f9a-acec-45d6e43944cc")
 		)
-		(model "52435-2271.stp"
+		(model "/home/stefan/DEV/spaceteam/STS1_PCB_SIDEPANEL/libs/3d/STS_Connector/52435-2271.stp"
 			(offset
-				(xyz 0 2.099999873 0.04999999999)
+				(xyz 0 -1.4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
