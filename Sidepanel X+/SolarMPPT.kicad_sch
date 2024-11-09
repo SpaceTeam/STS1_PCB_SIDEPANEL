@@ -3648,7 +3648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "1uF"
 			(at 88.265 133.985 0)
 			(effects
 				(font
@@ -3675,7 +3675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 93.345 132.715 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "1uF"
 			(at 83.185 60.96 0)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 88.265 59.69 0)
 			(effects
 				(font

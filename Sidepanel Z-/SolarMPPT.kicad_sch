@@ -3998,7 +3998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "1u"
 			(at 98.425 53.34 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 103.505 52.07 0)
 			(effects
 				(font
