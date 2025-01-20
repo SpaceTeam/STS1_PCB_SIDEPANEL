@@ -513,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../gerber_SIDEPANELS/uci/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "UCI.step",
