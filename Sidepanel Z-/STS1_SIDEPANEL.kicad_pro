@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.55,
-          "width": 0.6
+          "height": 0.65,
+          "width": 0.85
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -66,8 +66,8 @@
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -279,6 +279,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         },
         {
           "diameter": 0.9,
@@ -585,7 +589,7 @@
       "plot": "../../gerber/assembly/sidepanel_Zminus/",
       "pos_files": "../../gerber/peek&place/sidepanel_Zminus/",
       "specctra_dsn": "",
-      "step": "../../step/STS1_SIDEPANEL_Z-.step",
+      "step": "../../step/step/STS1_SIDEPANEL_Z-.step",
       "svg": "",
       "vrml": ""
     },
@@ -714,7 +718,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "J2,#PWR11",
+    "used_designators": "#PWR11,#PWR15,#PWR109,J2,C32,C42",
     "variants": []
   },
   "sheets": [

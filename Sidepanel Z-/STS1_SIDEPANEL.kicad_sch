@@ -3287,7 +3287,7 @@
 		(uuid "13bf3188-8b0e-4765-85d0-552fb0a03b77")
 	)
 	(no_connect
-		(at 40.005 93.98)
+		(at 40.64 93.98)
 		(uuid "3ac07ba8-4ac3-4770-9dcb-0f21fcd37ba1")
 	)
 	(no_connect
@@ -3307,7 +3307,7 @@
 		(uuid "7405e947-26e8-444b-83c0-0e227b6e5c81")
 	)
 	(no_connect
-		(at 40.005 109.22)
+		(at 38.1 63.5)
 		(uuid "8f87175d-c06a-4588-afc0-f22bba656177")
 	)
 	(no_connect
@@ -3319,7 +3319,7 @@
 		(uuid "d391942a-9266-496a-a863-30ebfce6a971")
 	)
 	(no_connect
-		(at 40.005 106.68)
+		(at 38.1 60.96)
 		(uuid "e41ede37-6640-42ee-a459-b674e9b0b0b8")
 	)
 	(wire
@@ -3614,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 73.66) (xy 40.005 73.66)
+			(xy 30.48 73.66) (xy 40.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3703,7 +3703,7 @@
 		(uuid "080075e5-bebb-4551-8646-138341beed87")
 	)
 	(label "COBC_SWDIO"
-		(at 40.005 86.36 180)
+		(at 40.64 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3743,7 +3743,7 @@
 		(uuid "46387170-7637-4e74-839e-e069001a1c1f")
 	)
 	(label "Bat+"
-		(at 40.005 104.14 180)
+		(at 40.64 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3773,7 +3773,7 @@
 		(uuid "6cd30f6b-1ce0-4aa7-bc8a-40d9d430dfba")
 	)
 	(label "TEMP+"
-		(at 40.005 76.2 180)
+		(at 40.64 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3823,7 +3823,7 @@
 		(uuid "8f95376e-2dd4-4d7d-82e6-be09ffffccad")
 	)
 	(label "UART_TX"
-		(at 40.005 81.28 180)
+		(at 40.64 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3843,7 +3843,7 @@
 		(uuid "9627d8c8-0a9c-4fb0-958d-e0596d456d26")
 	)
 	(label "UART_RX"
-		(at 40.005 78.74 180)
+		(at 40.64 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3883,7 +3883,7 @@
 		(uuid "abffe223-4f8d-4130-97c9-a95f73942eb8")
 	)
 	(label "COBC_SWDCLK"
-		(at 40.005 88.9 180)
+		(at 40.64 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3903,7 +3903,7 @@
 		(uuid "add854ee-bc22-43c2-886a-bdb317b056fb")
 	)
 	(label "Bat-"
-		(at 40.005 99.06 180)
+		(at 40.64 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 		(uuid "aec589de-08fc-4de6-9bff-9ce97a6b0863")
 	)
 	(label "Bat-"
-		(at 40.005 96.52 180)
+		(at 40.64 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3923,7 +3923,7 @@
 		(uuid "aee111f7-1983-42a3-960a-127c18684d4b")
 	)
 	(label "Bat+"
-		(at 40.005 101.6 180)
+		(at 40.64 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 		(uuid "c79de514-cf02-4415-82a2-e10b57004249")
 	)
 	(label "SC1_V+"
-		(at 40.005 66.04 180)
+		(at 40.64 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3973,7 +3973,7 @@
 		(uuid "d267a7f9-dbfa-4a33-9f7c-fcc97ac87cd9")
 	)
 	(label "COBC_NOT_RST"
-		(at 40.005 83.82 180)
+		(at 40.64 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3993,7 +3993,7 @@
 		(uuid "da99667e-acc9-4dee-ab38-2c21dd43d6bb")
 	)
 	(label "SC1_I+"
-		(at 40.005 68.58 180)
+		(at 40.64 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4013,7 +4013,7 @@
 		(uuid "e8e490a5-e3ff-4e92-832c-0fe6a78a0f11")
 	)
 	(label "MPPT1"
-		(at 40.005 71.12 180)
+		(at 40.64 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4102,7 +4102,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.845 73.66 270)
+		(at 30.48 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4113,7 +4113,7 @@
 		(fields_autoplaced yes)
 		(uuid "3405dd3f-d0bd-4fef-b279-f38234183e10")
 		(property "Reference" "#PWR0111"
-			(at 23.495 73.66 0)
+			(at 24.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.035 73.6599 90)
+			(at 26.67 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4135,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.845 73.66 0)
+			(at 30.48 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.845 73.66 0)
+			(at 30.48 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.845 73.66 0)
+			(at 30.48 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4964,7 +4964,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 40.005 91.44 90)
+		(at 40.64 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4975,7 +4975,7 @@
 		(fields_autoplaced yes)
 		(uuid "b90901e2-9bbf-4f2d-81fd-9dbefc1801f9")
 		(property "Reference" "#PWR08"
-			(at 43.815 91.44 0)
+			(at 44.45 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4986,7 +4986,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 36.195 91.44 90)
+			(at 36.83 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4997,7 +4997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.005 91.44 0)
+			(at 40.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,7 +5008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.005 91.44 0)
+			(at 40.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,7 +5019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.005 91.44 0)
+			(at 40.64 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5485,7 +5485,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x18")
-		(at 45.085 86.36 0)
+		(at 45.72 83.82 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5493,10 +5494,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3bfa0bc-a3a3-45f1-ab48-a1a150564085")
 		(property "Reference" "J1"
-			(at 47.625 86.36 0)
+			(at 48.26 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5507,7 +5507,7 @@
 			)
 		)
 		(property "Value" "Conn_01x18"
-			(at 47.625 88.9 0)
+			(at 48.26 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5518,7 +5518,7 @@
 			)
 		)
 		(property "Footprint" "STS_connector:SAMTEC_T1M-16-F-SH-L"
-			(at 45.085 86.36 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.085 86.36 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,7 +5540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.085 86.36 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
