@@ -184,6 +184,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -195,6 +196,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -206,6 +208,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -513,6 +516,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -560,8 +564,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -701,7 +705,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#PWR3-4,#PWR19,C33,C43,C82",
+    "used_designators": "#PWR3-4,#PWR19,C33,C43,C82,J2",
     "variants": []
   },
   "sheets": [
@@ -710,12 +714,12 @@
       "STS1_SIDEPANEL"
     ],
     [
-      "4f87559b-6bba-4ff6-97a7-dad9a308db2d",
-      "SolarMPPT"
-    ],
-    [
       "13fd01c2-9c13-4b4c-bd8b-0bea989ca11e",
       "AntennaDeployment"
+    ],
+    [
+      "4f87559b-6bba-4ff6-97a7-dad9a308db2d",
+      "SolarMPPT"
     ]
   ],
   "text_variables": {},
