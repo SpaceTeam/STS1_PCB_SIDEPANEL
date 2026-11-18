@@ -199,6 +199,342 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "D_Schottky_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D22"
+				(at -1.5876 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMAJ5.0A-TR"
+				(at 0.9524 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "652-SMAJ5.0A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_Schottky_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D21"
+				(at -1.5875 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMAJ5.0A-TR"
+				(at 0.9525 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "652-SMAJ5.0A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_2_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_2_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -338,172 +674,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3559,7 +3729,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "667-ERJ-U6QFR22V"
 			(at 185.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3875,7 +4045,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "771-PMEG2020EH-T/R"
 			(at 139.7 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4113,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "595-INA180A4IDBVR"
 			(at 57.15 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4203,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "771-PMEG2020EH-T/R"
 			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-102-WT5"
 			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4649,7 +4819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 86.36 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 91.44 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4764,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-302-W-T1"
 			(at 191.77 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +5015,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 110.49 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4924,7 +5094,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "667-ERJ-U6QFR22V"
 			(at 180.34 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5005,7 +5175,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5241,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E104KA2D"
 			(at 43.18 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5262,88 +5432,6 @@
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 171.45 106.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65c76957-ccfc-4d5b-b7d9-2ee7c354f524")
-		(property "Reference" "D22"
-			(at 174.625 105.0925 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMM4F5.0"
-			(at 174.625 107.6325 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "STS_semiconductor:DIO_SMM4F5.0A-TR"
-			(at 171.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4af258b7-ddaa-4b84-b330-9088d5a83f58")
-		)
-		(pin "2"
-			(uuid "704f3e1b-930f-4df6-b304-5f77a449378e")
-		)
-		(instances
-			(project "STS1_SIDEPANEL"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5511,6 +5599,89 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Schottky_1")
+		(lib_id "Device:D_Schottky")
+		(at 171.45 106.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68905dd9-b4de-48e0-8692-48f8dc85a94d")
+		(property "Reference" "D22"
+			(at 173.99 105.0924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A-TR"
+			(at 173.99 107.6324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+			(at 171.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "652-SMAJ5.0A"
+			(at 171.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "2cb3099d-a757-447f-b617-bd593f6240b8")
+		)
+		(pin "C"
+			(uuid "a3117196-3c2b-421d-a172-ed5499f2b665")
+		)
+		(instances
+			(project "STS1_SIDEPANEL"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 163.83 38.1 0)
 		(unit 1)
@@ -5565,7 +5736,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 163.83 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5815,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "595-INA180A4IDBVR"
 			(at 66.04 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5732,7 +5903,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 177.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5969,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "603-PE0805FRM070R01L"
 			(at 57.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -6017,7 +6188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 91.44 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6221,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 96.52 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6129,7 +6300,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "603-PE0805FRM070R01L"
 			(at 66.04 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 170.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6366,7 +6537,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 177.8 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6448,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-102-WT5"
 			(at 186.69 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6530,7 +6701,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E105KA1D"
 			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6612,7 +6783,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E105KA1D"
 			(at 163.83 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +6942,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMK212B7105KGHTR"
 			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7009,7 +7180,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -7248,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7269,88 +7440,6 @@
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 176.53 38.1 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6a198d2-e0e4-4d6d-8a2a-bdeb249501be")
-		(property "Reference" "D21"
-			(at 179.705 36.5125 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMM4F5.0"
-			(at 179.705 39.0525 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "STS_semiconductor:DIO_SMM4F5.0A-TR"
-			(at 176.53 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39399d5a-41e4-44a1-90bd-c945071be919")
-		)
-		(pin "2"
-			(uuid "fa7593ec-8234-4796-9fa6-3876cab5c179")
-		)
-		(instances
-			(project "STS1_SIDEPANEL"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 77.47 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,6 +7683,89 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Schottky_2")
+		(lib_id "Device:D_Schottky")
+		(at 176.53 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce8c3ea0-5381-4f52-b952-0918c0f9f612")
+		(property "Reference" "D21"
+			(at 179.07 36.5125 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A-TR"
+			(at 179.07 39.0525 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "652-SMAJ5.0A"
+			(at 176.53 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C"
+			(uuid "89dd5d25-99cd-43ec-8d0e-063f4fb5232d")
+		)
+		(pin "A"
+			(uuid "b625f36b-a877-4695-98bc-1493b77ce42b")
+		)
+		(instances
+			(project "STS1_SIDEPANEL"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 158.75 140.97 0)
 		(unit 1)
@@ -7648,7 +7820,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E102KA1D"
 			(at 158.75 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7886,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-302-W-T1"
 			(at 186.69 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8045,7 +8217,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E104KA2D"
 			(at 50.8 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8361,7 +8533,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 172.72 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8442,7 +8614,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E102KA1D"
 			(at 105.41 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8887,7 +9059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 81.28 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)

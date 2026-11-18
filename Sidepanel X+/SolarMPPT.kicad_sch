@@ -199,6 +199,342 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "D_Schottky_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D22"
+				(at -1.5876 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMAJ5.0A-TR"
+				(at 0.9524 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "652-SMAJ5.0A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "D_Schottky_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D21"
+				(at -1.5875 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMAJ5.0A-TR"
+				(at 0.9525 2.54 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "652-SMAJ5.0A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_2_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_2_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -338,172 +674,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3672,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "771-PMEG2020EH-T/R"
 			(at 147.32 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3690,6 +3860,12 @@
 			(uuid "c70a381d-dd0e-4750-a94e-f51578f94041")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "D12")
@@ -3751,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "667-ERJ-U6QFR22V"
 			(at 185.42 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3769,6 +3945,12 @@
 			(uuid "b5fd8693-c0e1-493b-93c5-6d06acd03976")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R51")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R51")
@@ -3848,6 +4030,12 @@
 			(uuid "5e02b527-d6e9-4fb0-a473-6667d85aaf1f")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "L_IN2")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "L_IN2")
@@ -3926,6 +4114,12 @@
 			(uuid "1e359eaf-4b8b-400c-a686-5623ebde85c7")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR017")
@@ -4006,6 +4200,12 @@
 			(uuid "62a0040e-af36-4478-9ee9-a117b8b44dc4")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0114")
@@ -4069,7 +4269,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E102KA1D"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4087,6 +4287,12 @@
 			(uuid "add7ed56-65ca-410d-9ed3-71af8cc7dba7")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C31")
@@ -4117,7 +4323,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 88.9 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,6 +4374,12 @@
 			(uuid "810cab67-50ed-4970-b63c-c7cb8a71b3d2")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C62")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C62")
@@ -4246,6 +4458,12 @@
 			(uuid "8df4a4eb-20d3-4112-90b6-b926e15be35a")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR09")
@@ -4324,6 +4542,12 @@
 			(uuid "bf57821b-f873-4808-9ab5-cfa314a415c8")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR010")
@@ -4387,7 +4611,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ21BR71A106KE1L"
 			(at 171.45 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4405,6 +4629,12 @@
 			(uuid "4a2230ec-d877-4fcc-bec2-922821c93fbf")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C92")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C92")
@@ -4435,7 +4665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 83.82 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,6 +4716,12 @@
 			(uuid "457ad088-a329-4ee5-a93f-d667daf847db")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C61")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C61")
@@ -4568,6 +4804,12 @@
 			(uuid "fdbaa3a4-930b-41b8-9a4e-2992779d57eb")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "SC2")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "SC2")
@@ -4621,7 +4863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 191.77 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4632,7 +4874,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-102-WT5"
 			(at 191.77 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4650,6 +4892,12 @@
 			(uuid "5490d720-d27f-41ae-8012-064242af73ac")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R71")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R71")
@@ -4728,6 +4976,12 @@
 			(uuid "f1d5aff0-784d-4b6e-af60-cc1678c01e9a")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR018")
@@ -4806,6 +5060,12 @@
 			(uuid "53e4ff42-b1e9-447a-b3b9-a4c9b7c672aa")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR011")
@@ -4836,7 +5096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 99.06 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +5129,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ21BR71A106KE1L"
 			(at 104.14 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4887,6 +5147,12 @@
 			(uuid "41b865cf-ef95-41e9-8466-194f25fb31f7")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C12")
@@ -4966,6 +5232,12 @@
 			(uuid "9e2fd9e5-ff65-4589-881b-cabecfc2e170")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR04")
@@ -5030,7 +5302,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E104KA2D"
 			(at 53.34 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5048,6 +5320,12 @@
 			(uuid "f5388242-9b7b-4607-b5ba-946fb2037571")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C81")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C81")
@@ -5101,7 +5379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 191.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5112,7 +5390,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-302-W-T1"
 			(at 191.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5130,6 +5408,12 @@
 			(uuid "5f5789ac-e97b-4005-b7d5-3eacf68760d3")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R61")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R61")
@@ -5182,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5193,7 +5477,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5211,6 +5495,12 @@
 			(uuid "22647b1f-b180-4215-8db6-371caf1cd9c0")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R21")
@@ -5272,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "667-ERJ-U6QFR22V"
 			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5290,6 +5580,12 @@
 			(uuid "0401c7e2-68fd-4f18-8f02-04412086d74f")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R52")
@@ -5353,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ21BR71A106KE1L"
 			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5371,6 +5667,12 @@
 			(uuid "2df1bb11-b1ca-4316-b322-d36d8afbe11a")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C42")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C42")
@@ -5451,6 +5753,12 @@
 			(uuid "d424a8e2-93d5-47c7-ac4a-cd77f2d50f98")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0115")
@@ -5529,6 +5837,12 @@
 			(uuid "639ae715-4d55-41f8-86b8-92c118546658")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0108")
@@ -5590,7 +5904,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "595-INA180A4IDBVR"
 			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5617,91 +5931,15 @@
 			(uuid "ffd37b0b-9cf6-4eb6-a004-11e37d635b70")
 		)
 		(instances
-			(project "STS1_SIDEPANEL"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
 					(reference "U11")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 184.15 111.76 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65c76957-ccfc-4d5b-b7d9-2ee7c354f524")
-		(property "Reference" "D22"
-			(at 187.325 110.1725 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMM4F5.0"
-			(at 187.325 112.7125 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "STS_semiconductor:DIO_SMM4F5.0A-TR"
-			(at 184.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4af258b7-ddaa-4b84-b330-9088d5a83f58")
-		)
-		(pin "2"
-			(uuid "704f3e1b-930f-4df6-b304-5f77a449378e")
-		)
-		(instances
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
-					(reference "D22")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5860,6 +6098,12 @@
 			(uuid "8dc764d2-9f47-4531-86a5-9d8c35c9020c")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "MPPT1")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "MPPT1")
@@ -5923,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "771-PMEG2020EH-T/R"
 			(at 139.7 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5941,6 +6185,12 @@
 			(uuid "5c510c19-951b-4c80-9a0b-eb0c2b05e5ad")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "D11")
@@ -5991,7 +6241,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6002,7 +6252,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 177.8 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6020,6 +6270,12 @@
 			(uuid "711cf9cb-5b84-4758-b2d2-3b834631816e")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R31")
@@ -6098,6 +6354,12 @@
 			(uuid "b8c80df5-f7d7-4013-95d0-24c24880dd17")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR014")
@@ -6128,7 +6390,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 91.44 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6423,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ21BR71A106KE1L"
 			(at 96.52 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6179,6 +6441,12 @@
 			(uuid "716e8bf5-fb1a-4f84-be63-2eb75a2e1cf2")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C11")
@@ -6258,6 +6526,12 @@
 			(uuid "ad2d52f1-60de-463b-b345-a0a4cd92523c")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR03")
@@ -6321,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ21BR71A106KE1L"
 			(at 170.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6350,6 +6624,12 @@
 			(uuid "66a01c05-f2ab-4ae6-9caa-3246b4569295")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C41")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C41")
@@ -6427,6 +6707,12 @@
 			(uuid "20c842d1-da1a-42d0-be6a-da1791b288c4")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR013")
@@ -6477,7 +6763,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6488,7 +6774,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6506,6 +6792,12 @@
 			(uuid "16fffe0c-44c7-45a6-8b8d-0d3fad27a98d")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R41")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R41")
@@ -6570,7 +6862,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-102-WT5"
 			(at 199.39 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6588,6 +6880,12 @@
 			(uuid "17697300-9822-433c-87c5-894b6f6d9c24")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R72")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R72")
@@ -6652,7 +6950,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E105KA1D"
 			(at 168.91 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6670,6 +6968,12 @@
 			(uuid "c17260f4-0ad9-4d43-b1e6-cc0dd19ee533")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C51")
@@ -6733,7 +7037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ21BR71A106KE1L"
 			(at 163.83 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6762,6 +7066,12 @@
 			(uuid "3e385293-3938-489a-946b-9c71735c9196")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C91")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C91")
@@ -6823,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "603-PE0805FRM070R01L"
 			(at 69.85 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6841,9 +7151,104 @@
 			(uuid "846bbfe4-2f8d-4f42-9ef8-428cc36e2cda")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "D_Schottky_1")
+		(lib_id "Device:D_Schottky")
+		(at 184.15 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b583534-4045-4e3a-a9d6-af2dc3b8136d")
+		(property "Reference" "D22"
+			(at 186.69 110.1724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A-TR"
+			(at 186.69 112.7124 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "STS_semiconductor:DIOM4325X250N"
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "652-SMAJ5.0A"
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "d1230be6-4a89-4306-89b6-0e5f5ee83a95")
+		)
+		(pin "C"
+			(uuid "4bb8039d-7219-4cb5-97a8-a542bf2a2713")
+		)
+		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+			(project "STS1_SIDEPANEL"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6905,7 +7310,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E105KA1D"
 			(at 176.53 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6923,6 +7328,12 @@
 			(uuid "53eca9c3-a1ae-4f59-bffe-0e0535f5913f")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C52")
@@ -7001,6 +7412,12 @@
 			(uuid "f1aca184-bedb-4f20-9e0f-9b8c8df38d40")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR01")
@@ -7079,6 +7496,12 @@
 			(uuid "ee19bb4e-8f3d-4cdd-8c5c-19c8ef3df88e")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0107")
@@ -7142,7 +7565,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E102KA1D"
 			(at 110.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7160,6 +7583,12 @@
 			(uuid "67df78a0-b143-44d5-9c23-47ed3b854e70")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C21")
@@ -7238,6 +7667,12 @@
 			(uuid "2f6a48d2-b9b0-4d53-b05c-732958ce3921")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR015")
@@ -7299,7 +7734,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "603-PE0805FRM070R01L"
 			(at 62.23 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7317,6 +7752,12 @@
 			(uuid "387ab4e0-f975-4bf3-8267-e75d3441c42b")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R11")
@@ -7367,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7378,7 +7819,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 185.42 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7396,6 +7837,12 @@
 			(uuid "ae869643-d52d-4e19-afc1-eeb5908a9336")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R32")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R32")
@@ -7460,7 +7907,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E104KA2D"
 			(at 60.96 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7478,6 +7925,12 @@
 			(uuid "5985a85f-93ff-44ea-877d-ab54f3ddca9d")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C82")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C82")
@@ -7558,6 +8011,12 @@
 			(uuid "7b20afe5-4ce8-4e8d-8a74-2526b57dc91e")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "L1")
@@ -7610,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7621,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7639,6 +8098,12 @@
 			(uuid "503652d8-1543-4371-9c1a-bb5141e2110a")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R22")
@@ -7648,6 +8113,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_Schottky_2")
 		(lib_id "Device:D_Schottky")
 		(at 176.53 38.1 270)
 		(unit 1)
@@ -7670,7 +8136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMM4F5.0"
+		(property "Value" "SMAJ5.0A-TR"
 			(at 179.07 39.0525 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7681,7 +8147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STS_semiconductor:DIO_SMM4F5.0A-TR"
+		(property "Footprint" "STS_semiconductor:DIOM4325X250N"
 			(at 176.53 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7703,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "652-SMAJ5.0A"
 			(at 176.53 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7714,13 +8180,19 @@
 				)
 			)
 		)
-		(pin "1"
+		(pin "C"
 			(uuid "39399d5a-41e4-44a1-90bd-c945071be919")
 		)
-		(pin "2"
+		(pin "A"
 			(uuid "fa7593ec-8234-4796-9fa6-3876cab5c179")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "D21")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "D21")
@@ -7799,6 +8271,12 @@
 			(uuid "18f914d1-7582-440f-8077-b30716f649f3")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0104")
@@ -7877,6 +8355,12 @@
 			(uuid "39e3186c-c7c6-46d3-93ce-521c553bbc44")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR02")
@@ -7940,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E102KA1D"
 			(at 171.45 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7958,6 +8442,12 @@
 			(uuid "f6524df4-9a56-4ecd-9eca-6b60d84ebe27")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C32")
@@ -8019,7 +8509,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "595-INA180A4IDBVR"
 			(at 69.85 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8046,6 +8536,12 @@
 			(uuid "225cde53-053f-4c67-b97b-6233ba7d8e14")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "U12")
@@ -8124,6 +8620,12 @@
 			(uuid "79750f0d-c9e5-46e2-99c6-bbae9d0ef813")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0106")
@@ -8202,6 +8704,12 @@
 			(uuid "01111f9b-8907-4a1b-8d41-94247732b9fb")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR012")
@@ -8266,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608N-302-W-T1"
 			(at 199.39 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8284,6 +8792,12 @@
 			(uuid "2ef11b6d-a5f8-4b3a-bc02-abbb914d5146")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R62")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R62")
@@ -8361,6 +8875,12 @@
 			(uuid "deafdceb-e3b2-4caf-8f96-c3d74a8dedb7")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0103")
@@ -8445,6 +8965,12 @@
 			(uuid "296daf56-c423-4cd2-bcc9-a785aeb033ea")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "SC1")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "SC1")
@@ -8523,6 +9049,12 @@
 			(uuid "159708b6-a89a-4829-ae69-325457ae34ce")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR0105")
@@ -8573,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.at/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 185.42 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8584,7 +9116,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "754-RG1608P-102-B-T5"
 			(at 185.42 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8602,6 +9134,12 @@
 			(uuid "d8169284-b539-4c57-9bb3-18e38d1967b8")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "R42")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "R42")
@@ -8665,7 +9203,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "81-GCJ188R71E102KA1D"
 			(at 118.11 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8683,6 +9221,12 @@
 			(uuid "3299a70e-2fd9-419f-a689-bee6b994cfd8")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "C22")
@@ -8761,6 +9305,12 @@
 			(uuid "1160ff75-4326-4570-9f6d-e7ccd4ad81d2")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR016")
@@ -8922,6 +9472,12 @@
 			(uuid "4d16dde4-26ca-47eb-a99d-3cc0f5083093")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "MPPT2")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "MPPT2")
@@ -9000,6 +9556,12 @@
 			(uuid "360fb6da-b13c-43ea-93b9-79d226cba762")
 		)
 		(instances
+			(project "SolarMPPT"
+				(path "/b4ea8ef5-b021-4184-8eec-5b917b366d87"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 			(project "STS1_SIDEPANEL"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4f87559b-6bba-4ff6-97a7-dad9a308db2d"
 					(reference "#PWR019")
@@ -9008,4 +9570,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
